@@ -1,0 +1,53 @@
+============================================================================
+NEWSEMO — EXISTING MODEL DISCOVERY
+============================================================================
+Candidate directories: 34
+No model downloads. No package installations.
+
+[LINKED] qwen2_5_7b_instruct
+   Source: /home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct
+   Weights: 15.23 GB
+[LINKED] qwen3_8b
+   Source: /home/tahiti/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218
+   Weights: 16.38 GB
+[LINKED] qwen2_5_coder_7b
+   Source: /home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct
+   Weights: 15.23 GB
+[LINKED] qwen2_5_vl_7b
+   Source: /home/tahiti/CoMUL/models/qwen2_5_vl_7b_instruct
+   Weights: 16.58 GB
+[LINKED] qwen2_5_vl_3b
+   Source: /home/tahiti/ARTeccv/models/qwen2_5_vl_3b_instruct
+   Weights: 7.51 GB
+[LINKED] clip_vit_b32
+   Source: /home/tahiti/Forensics/models/clip_vit_base_patch32
+   Weights: 0.60 GB
+[LINKED] clip_vit_l14
+   Source: /home/tahiti/MARINE_DATASETS/MARINE_MODELS/clip_vit_large
+   Weights: 3.42 GB
+[LINKED] dinov2_small
+   Source: /home/tahiti/Forensics/models/dinov2_small
+   Weights: 0.18 GB
+[LINKED] minilm_l6_v2
+   Source: /home/tahiti/Forensics/models/minilm_l6_v2
+   Weights: 0.18 GB
+[MISSING] openclip_laion_b32
+
+[TEXT LLM SELECTED] qwen2_5_7b_instruct
+
+============================================================================
+MODEL LINKS
+============================================================================
+clip_vit_b32                 -> /home/tahiti/Forensics/models/clip_vit_base_patch32
+clip_vit_l14                 -> /home/tahiti/MARINE_DATASETS/MARINE_MODELS/clip_vit_large
+dinov2_small                 -> /home/tahiti/Forensics/models/dinov2_small
+minilm_l6_v2                 -> /home/tahiti/Forensics/models/minilm_l6_v2
+qwen2_5_7b_instruct          -> /home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct
+qwen2_5_coder_7b             -> /home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct
+qwen2_5_vl_3b                -> /home/tahiti/ARTeccv/models/qwen2_5_vl_3b_instruct
+qwen2_5_vl_7b                -> /home/tahiti/CoMUL/models/qwen2_5_vl_7b_instruct
+qwen3_8b                     -> /home/tahiti/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218
+text_llm                     -> /home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct
+
+Registry: /home/tahiti/NewsEmo/reports/phase2_model_registry.json
+No original model files modified.

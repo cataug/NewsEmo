@@ -1,0 +1,257 @@
+{
+  "version": "1.0",
+  "root": "/home/tahiti/NewsEmo",
+  "reference_style": [
+    "FIGURES/build_figures.py",
+    "FIGURES/build_figures_extended.py"
+  ],
+  "figure_count": 28,
+  "figures": [
+    {
+      "id": 1,
+      "stem": "01_dataset_topology",
+      "note": "Record counts, split composition and classes for five datasets",
+      "source_files": [
+        "cache/manifests/inews.csv",
+        "cache/manifests/gne.csv",
+        "cache/manifests/mirage.csv",
+        "cache/manifests/clips.csv",
+        "cache/manifests/semeval.csv"
+      ]
+    },
+    {
+      "id": 2,
+      "stem": "02_human_label_landscape",
+      "note": "Per-class frequency of human labels in iNews and GNE",
+      "source_files": [
+        "cache/manifests/inews.csv",
+        "cache/manifests/gne.csv"
+      ]
+    },
+    {
+      "id": 3,
+      "stem": "03_label_inequality_curves",
+      "note": "Lorenz curves of class-frequency concentration",
+      "source_files": [
+        "cache/manifests/inews.csv",
+        "cache/manifests/gne.csv",
+        "cache/manifests/mirage.csv"
+      ]
+    },
+    {
+      "id": 4,
+      "stem": "04_post_vote_entropy_map",
+      "note": "Per-post human disagreement as a function of vote count",
+      "source_files": [
+        "results/phase2_extension/inews_post_vote_consensus.csv"
+      ]
+    },
+    {
+      "id": 5,
+      "stem": "05_rater_agreement_intervals",
+      "note": "Nominal alpha intervals and pairwise agreement",
+      "source_files": [
+        "results/phase2_extension/inews_rater_agreement.csv"
+      ]
+    },
+    {
+      "id": 6,
+      "stem": "06_rater_workload_reliability",
+      "note": "Individual rater sample counts vs majority agreement",
+      "source_files": [
+        "results/phase2_extension/inews_raters.csv"
+      ]
+    },
+    {
+      "id": 7,
+      "stem": "07_individual_vs_aggregate_emotion",
+      "note": "Individual-level versus aggregated human-label model evaluation",
+      "source_files": [
+        "results/phase2_extension/inews_human_level_model_scores.csv"
+      ]
+    },
+    {
+      "id": 8,
+      "stem": "08_baseline_three_domain_leaderboards",
+      "note": "Complete top-9 baseline ranking by corpus with seed SD",
+      "source_files": [
+        "results/baseline.csv",
+        "results/baseline.csv",
+        "results/baseline.csv"
+      ]
+    },
+    {
+      "id": 9,
+      "stem": "09_multiobjective_baseline_rank_flow",
+      "note": "Rank changes among validation F1, test F1 and worst-class recall on MiRAGe",
+      "source_files": [
+        "results/baseline.csv"
+      ]
+    },
+    {
+      "id": 10,
+      "stem": "10_seed_uncertainty_raincloud",
+      "note": "Seed dispersion of top baselines by task",
+      "source_files": [
+        "results/baseline.csv"
+      ]
+    },
+    {
+      "id": 11,
+      "stem": "11_inews_best_confusion",
+      "note": "Full per-class confusion geometry of the strongest baseline",
+      "source_files": [
+        "cache/predictions/inews/baseline_minilm_mlp_6_s42.npz"
+      ]
+    },
+    {
+      "id": 12,
+      "stem": "12_gne_best_confusion",
+      "note": "Full per-class confusion geometry of the strongest baseline",
+      "source_files": [
+        "cache/predictions/gne/baseline_minilm_mlp_6_s42.npz"
+      ]
+    },
+    {
+      "id": 13,
+      "stem": "13_vad_dimension_error_atlas",
+      "note": "Affective continuous-label regression by target and model feature",
+      "source_files": [
+        "results/vad.csv"
+      ]
+    },
+    {
+      "id": 14,
+      "stem": "14_ablation_delta_atlas",
+      "note": "Feature ablation changes relative to predefined per-task reference",
+      "source_files": [
+        "results/ablation.csv"
+      ]
+    },
+    {
+      "id": 15,
+      "stem": "15_modality_contribution_ladder",
+      "note": "Model-difference map of modality removals and shuffled images",
+      "source_files": [
+        "results/ablation.csv"
+      ]
+    },
+    {
+      "id": 16,
+      "stem": "16_vlm_matched_comparison",
+      "note": "Controlled comparison of image-text VLM fusion against frozen embeddings",
+      "source_files": [
+        "results/vlm.csv"
+      ]
+    },
+    {
+      "id": 17,
+      "stem": "17_mirage_ood_domain_fan",
+      "note": "Domain shift and seed dispersion in five fixed OOD test slices",
+      "source_files": [
+        "results/robustness.csv"
+      ]
+    },
+    {
+      "id": 18,
+      "stem": "18_perturbation_invariance_matrix",
+      "note": "Cross-dataset surface perturbation robustness matrix",
+      "source_files": [
+        "results/robustness.csv"
+      ]
+    },
+    {
+      "id": 20,
+      "stem": "20_semeval_emotion_prompt_correlations",
+      "note": "External per-emotion Spearman correlations by model and prompt",
+      "source_files": [
+        "results/semeval_zeroshot.csv"
+      ]
+    },
+    {
+      "id": 21,
+      "stem": "21_gne_role_precision_recall_bubbles",
+      "note": "GNE P/R/F1 geometry for each role",
+      "source_files": [
+        "results/phase2_extension/gne_role_metrics.csv"
+      ]
+    },
+    {
+      "id": 22,
+      "stem": "22_gne_role_generalization_heatmap",
+      "note": "GNE micro-F1 across roles and train/validation/test splits",
+      "source_files": [
+        "results/phase2_extension/gne_role_metrics.csv"
+      ]
+    },
+    {
+      "id": 23,
+      "stem": "23_gne_role_boundary_precision_dumbbell",
+      "note": "Exact span vs token overlap per emotional role",
+      "source_files": [
+        "results/phase2_extension/gne_role_metrics.csv"
+      ]
+    },
+    {
+      "id": 25,
+      "stem": "25_gne_gold_span_alignment_coverage",
+      "note": "Alignment yield and sample sizes of GNE gold role spans",
+      "source_files": [
+        "results/phase2_extension/gne_gold_annotation_alignment_audit.csv"
+      ]
+    },
+    {
+      "id": 26,
+      "stem": "26_gne_intensity_collapse_diagnostic",
+      "note": "Absolute label collapse and magnified minority intensity counts",
+      "source_files": [
+        "results/phase2_extension/gne_intensity_counts.csv"
+      ]
+    },
+    {
+      "id": 27,
+      "stem": "27_pareto_reference_sensitivity",
+      "note": "Exact hypervolume by optimizer and reference point for three datasets",
+      "source_files": [
+        "results/phase2_extension/pareto_hypervolume_exact.csv"
+      ]
+    },
+    {
+      "id": 28,
+      "stem": "28_pareto_validation_test_generalization",
+      "note": "Pareto optimization validation/test performance and chosen complexity",
+      "source_files": [
+        "results/pareto.csv"
+      ]
+    },
+    {
+      "id": 29,
+      "stem": "29_leave_source_out_transfer_matrix",
+      "note": "Source-holdout generalization by corpus and feature family",
+      "source_files": [
+        "results/source_holdout.csv"
+      ]
+    },
+    {
+      "id": 30,
+      "stem": "30_paired_inference_forest_atlas",
+      "note": "Cluster-bootstrap intervals with exploratory BH significance (display de-duplicated)",
+      "source_files": [
+        "results/phase2_extension/paired_randomization_BH_exploratory.csv"
+      ]
+    }
+  ],
+  "failed": [
+    {
+      "id": 19,
+      "error": "agg function failed [how->mean,dtype->object]",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 1942, in _agg_py_fallback\n    res_values = self._grouper.agg_series(ser, alt, preserve_dtype=True)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/ops.py\", line 864, in agg_series\n    result = self._aggregate_series_pure_python(obj, func)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/ops.py\", line 885, in _aggregate_series_pure_python\n    res = func(group)\n          ^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 2454, in <lambda>\n    alt=lambda x: Series(x, copy=False).mean(numeric_only=numeric_only),\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/series.py\", line 6549, in mean\n    return NDFrame.mean(self, axis, skipna, numeric_only, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/generic.py\", line 12420, in mean\n    return self._stat_function(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/generic.py\", line 12377, in _stat_function\n    return self._reduce(\n           ^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/series.py\", line 6457, in _reduce\n    return op(delegate, skipna=skipna, **kwds)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/nanops.py\", line 147, in f\n    result = alt(values, axis=axis, skipna=skipna, **kwds)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/nanops.py\", line 404, in new_func\n    result = func(values, axis=axis, skipna=skipna, mask=mask, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/nanops.py\", line 720, in nanmean\n    the_sum = _ensure_numeric(the_sum)\n              ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/nanops.py\", line 1701, in _ensure_numeric\n    raise TypeError(f\"Could not convert string '{x}' to numeric\")\nTypeError: Could not convert string '0.7416332183395001' to numeric\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/tahiti/NewsEmo/FIGURES/build_figures.py\", line 680, in main\n    func()\n  File \"/home/tahiti/NewsEmo/FIGURES/build_figures.py\", line 458, in fig19\n    tab=a.pivot_table(index='method',columns='dataset',values='auc',aggfunc='mean')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/frame.py\", line 9509, in pivot_table\n    return pivot_table(\n           ^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/reshape/pivot.py\", line 102, in pivot_table\n    table = __internal_pivot_table(\n            ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/reshape/pivot.py\", line 183, in __internal_pivot_table\n    agged = grouped.agg(aggfunc)\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/generic.py\", line 1432, in aggregate\n    result = op.agg()\n             ^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/apply.py\", line 187, in agg\n    return self.apply_str()\n           ^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/apply.py\", line 603, in apply_str\n    return self._apply_str(obj, func, *self.args, **self.kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/apply.py\", line 693, in _apply_str\n    return f(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 2452, in mean\n    result = self._cython_agg_general(\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 1998, in _cython_agg_general\n    new_mgr = data.grouped_reduce(array_func)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/internals/managers.py\", line 1469, in grouped_reduce\n    applied = sb.apply(func)\n              ^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/internals/blocks.py\", line 393, in apply\n    result = func(self.values, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 1995, in array_func\n    result = self._agg_py_fallback(how, values, ndim=data.ndim, alt=alt)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/pandas/core/groupby/groupby.py\", line 1946, in _agg_py_fallback\n    raise type(err)(msg) from err\nTypeError: agg function failed [how->mean,dtype->object]\n"
+    },
+    {
+      "id": 24,
+      "error": "'>=' not supported between instances of 'int' and 'str'",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/tahiti/NewsEmo/FIGURES/build_figures.py\", line 680, in main\n    func()\n  File \"/home/tahiti/NewsEmo/FIGURES/build_figures.py\", line 538, in fig24\n    totals=grp.sum(axis=1).to_numpy();safe=np.maximum(1,totals)\n                                           ^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'int' and 'str'\n"
+    }
+  ],
+  "methodology": "Read-only visualizations of existing results; no imputations, no model reruns."
+}

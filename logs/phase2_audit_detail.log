@@ -1,0 +1,36 @@
+
+========== 1. GOODNEWSEVERYONE ==========
+Columns: ['id', 'headline', 'url', 'bias_horizontal', 'bias_vertical', 'country', 'source', 'dominant_emotion', 'intensity', 'cause', 'experiencer', 'target', 'cue', 'other_emotions', 'reader_emotions']
+Example: {'id': '7d3fe468', 'headline': 'Cops in One Village Have Been Convicted of 70 Crimes. Here’s What They Had to Say About It.', 'url': 'http://tracking.feedpress.it/link/9499/12677255', 'bias_horizontal': '-5', 'bias_vertical': '46', 'country': 'US', 'source': 'ProPublica', 'dominant_emotion': 'anger', 'intensity': 'medium', 'cause': '[["cops in one village have been convicted of 70 crimes"]]', 'experiencer': '[["cops"]]', 'target': '[["cops in one village have been convicted of 70 crimes"]]', 'cue': '[["convicted"]]', 'other_emotions': 'annoyance', 'reader_emotions': 'annoyance'}
+
+========== 2. SEMEVAL ==========
+Headlines: 1000
+Example: {'id': '500'} Test to predict breast cancer relapse is approved
+Example: {'id': '501'} Two Hussein allies are hanged, Iraqi official says
+
+========== 3. MIRAGENEWS ==========
+Generic test rows: 2500
+Named test rows: 2500
+Matching texts: 2500
+Total stored test rows: 5000
+test1_nyt_mj-00000-of-00001.parquet rows= 500 labels= {1: 250, 0: 250}
+test2_bbc_dalle-00000-of-00002.parquet rows= 250 labels= {1: 250}
+test2_bbc_dalle-00001-of-00002.parquet rows= 250 labels= {0: 250}
+test3_cnn_dalle-00000-of-00002.parquet rows= 250 labels= {1: 250}
+test3_cnn_dalle-00001-of-00002.parquet rows= 250 labels= {0: 250}
+test4_bbc_sdxl-00000-of-00001.parquet rows= 500 labels= {1: 250, 0: 250}
+test5_cnn_sdxl-00000-of-00001.parquet rows= 500 labels= {1: 250, 0: 250}
+
+========== 4. NEWSCLIPPINGS ==========
+Root fields: ['source_datasets', 'annotations']
+Annotation count: 7264
+Example annotation: {'id': 714504, 'image_id': 714504, 'similarity_score': 1, 'source_dataset': 2, 'falsified': False}
+Label counts: {'False': 3632, 'True': 3632}
+
+========== 5. SENS IMAGE COVERAGE ==========
+Required images: 9576
+Files present: 13
+Exact suffix-path matches: 13
+Coverage: 0.136%
+
+========== COMPLETE ==========

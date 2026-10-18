@@ -1,0 +1,37 @@
+15:35:06 LOAD clipimageL /home/tahiti/NewsEmo/models/clip_vit_l14 cuda
+15:35:12 EXTRACT clipimageL clips 8 / 6925
+15:35:30 EXTRACT clipimageL clips 208 / 6925
+15:35:48 EXTRACT clipimageL clips 408 / 6925
+15:36:05 EXTRACT clipimageL clips 608 / 6925
+15:36:22 EXTRACT clipimageL clips 808 / 6925
+15:36:39 EXTRACT clipimageL clips 1008 / 6925
+15:36:56 EXTRACT clipimageL clips 1208 / 6925
+15:37:14 EXTRACT clipimageL clips 1408 / 6925
+15:37:31 EXTRACT clipimageL clips 1608 / 6925
+15:37:49 EXTRACT clipimageL clips 1808 / 6925
+15:38:06 EXTRACT clipimageL clips 2008 / 6925
+15:38:23 EXTRACT clipimageL clips 2208 / 6925
+15:38:40 EXTRACT clipimageL clips 2408 / 6925
+15:38:57 EXTRACT clipimageL clips 2608 / 6925
+15:39:14 EXTRACT clipimageL clips 2808 / 6925
+15:39:31 EXTRACT clipimageL clips 3008 / 6925
+15:39:48 EXTRACT clipimageL clips 3208 / 6925
+15:40:05 EXTRACT clipimageL clips 3408 / 6925
+15:40:22 EXTRACT clipimageL clips 3608 / 6925
+15:40:39 EXTRACT clipimageL clips 3808 / 6925
+15:40:56 EXTRACT clipimageL clips 4008 / 6925
+15:41:13 EXTRACT clipimageL clips 4208 / 6925
+15:41:30 EXTRACT clipimageL clips 4408 / 6925
+15:41:47 EXTRACT clipimageL clips 4608 / 6925
+15:42:05 EXTRACT clipimageL clips 4808 / 6925
+15:42:22 EXTRACT clipimageL clips 5008 / 6925
+15:42:39 EXTRACT clipimageL clips 5208 / 6925
+15:42:56 EXTRACT clipimageL clips 5408 / 6925
+15:43:14 EXTRACT clipimageL clips 5608 / 6925
+15:43:31 EXTRACT clipimageL clips 5808 / 6925
+15:43:48 EXTRACT clipimageL clips 6008 / 6925
+15:44:05 EXTRACT clipimageL clips 6208 / 6925
+15:44:22 EXTRACT clipimageL clips 6408 / 6925
+15:44:39 EXTRACT clipimageL clips 6608 / 6925
+15:44:56 EXTRACT clipimageL clips 6808 / 6925
+15:45:06 COMPLETE clipimageL clips

@@ -1,0 +1,27 @@
+15:20:36 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+15:20:38 EXTRACT minilm mirage 24 / 15000
+15:20:40 EXTRACT minilm mirage 624 / 15000
+15:20:42 EXTRACT minilm mirage 1224 / 15000
+15:20:44 EXTRACT minilm mirage 1824 / 15000
+15:20:46 EXTRACT minilm mirage 2424 / 15000
+15:20:48 EXTRACT minilm mirage 3024 / 15000
+15:20:50 EXTRACT minilm mirage 3624 / 15000
+15:20:52 EXTRACT minilm mirage 4224 / 15000
+15:20:54 EXTRACT minilm mirage 4824 / 15000
+15:20:56 EXTRACT minilm mirage 5424 / 15000
+15:20:58 EXTRACT minilm mirage 6024 / 15000
+15:21:01 EXTRACT minilm mirage 6624 / 15000
+15:21:03 EXTRACT minilm mirage 7224 / 15000
+15:21:05 EXTRACT minilm mirage 7824 / 15000
+15:21:06 EXTRACT minilm mirage 8424 / 15000
+15:21:08 EXTRACT minilm mirage 9024 / 15000
+15:21:10 EXTRACT minilm mirage 9624 / 15000
+15:21:12 EXTRACT minilm mirage 10224 / 15000
+15:21:14 EXTRACT minilm mirage 10824 / 15000
+15:21:15 EXTRACT minilm mirage 11424 / 15000
+15:21:17 EXTRACT minilm mirage 12024 / 15000
+15:21:19 EXTRACT minilm mirage 12624 / 15000
+15:21:20 EXTRACT minilm mirage 13224 / 15000
+15:21:22 EXTRACT minilm mirage 13824 / 15000
+15:21:24 EXTRACT minilm mirage 14424 / 15000
+15:21:25 COMPLETE minilm mirage

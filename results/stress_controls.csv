@@ -1,0 +1,7 @@
+dataset,control,n,mean_original_similarity,mean_shuffled_similarity,fraction_original_higher,note,mean_abs_rater_difference
+NewsCLIPpings,random_image,6925,0.28940513730049133,0.131015807390213,0.9893140794223827,counterfactual image swapping changes target; no preserved-label accuracy is claimed,
+NewsCLIPpings,cyclic_shift,6925,0.28940513730049133,0.21932852268218994,0.668014440433213,counterfactual image swapping changes target; no preserved-label accuracy is claimed,
+NewsCLIPpings,reverse_order,6925,0.28940513730049133,0.1296689808368683,0.9922021660649819,counterfactual image swapping changes target; no preserved-label accuracy is claimed,
+NewsCLIPpings,within_source,6925,0.28940513730049133,0.13500414788722992,0.9868592057761733,counterfactual image swapping changes target; no preserved-label accuracy is claimed,
+SemEval,rater_disagreement_six_emotions,90000,,,,"pairwise inter-annotator absolute difference, not model error",16.77551111111111
+SemEval,rater_disagreement_valence,15000,,,,"pairwise inter-annotator absolute difference, not model error",38.474066666666666

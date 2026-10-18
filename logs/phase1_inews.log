@@ -1,0 +1,137 @@
+===========================================================================
+NEWS EMOTION — PHASE 1
+HUMAN-ANNOTATED INEWS BASELINES
+===========================================================================
+
+DATASET STATISTICS
+Train                annotations= 7350 posts= 2028 users= 202 sources= 21
+Dev                  annotations=  155 posts=  128 users=  30 sources= 18
+Cold-start test      annotations=  498 posts=  354 users=  59 sources= 20
+
+Emotion classes: ['anger', 'contempt', 'disgust', 'fear', 'happy', 'neutral', 'other (please specify in the box below)', 'sad', 'surprise']
+
+BUILDING TF-IDF FEATURES
+Train: (7350, 20000)
+Dev:   (155, 20000)
+Test:  (498, 20000)
+
+=================================================================
+MODEL: majority
+=================================================================
+  constant     macro-F1=0.0474 accuracy=0.2710
+
+=================================================================
+MODEL: logreg_tfidf
+=================================================================
+  C=0.1        macro-F1=0.2096 accuracy=0.3097
+  C=1.0        macro-F1=0.2511 accuracy=0.3742
+  C=10.0       macro-F1=0.2180 accuracy=0.3613
+
+=================================================================
+MODEL: linear_svm_tfidf
+=================================================================
+  C=0.1        macro-F1=0.2183 accuracy=0.3806
+  C=1.0        macro-F1=0.2199 accuracy=0.3806
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/svm/_base.py:1235: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+  C=10.0       macro-F1=0.2032 accuracy=0.3548
+
+=================================================================
+MODEL: rf100_tfidf
+=================================================================
+  fixed        macro-F1=0.1643 accuracy=0.3548
+
+===========================================================================
+FINAL HELD-OUT EVALUATION
+===========================================================================
+majority             macro-F1=0.0540 CI95=[0.04883877696377696, 0.05919477513227513] accuracy=0.3213
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+logreg_tfidf         macro-F1=0.2092 CI95=[0.17277713160943348, 0.24412667225594906] accuracy=0.2892
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+linear_svm_tfidf     macro-F1=0.2048 CI95=[0.1692848937823211, 0.2418609596511168] accuracy=0.3072
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+rf100_tfidf          macro-F1=0.1872 CI95=[0.153758141253265, 0.2209310676131756] accuracy=0.3735
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:409: UserWarning: A single label was found in 'y_true' and 'y_pred'. For the confusion matrix to have the correct shape, use the 'labels' parameter to pass all known labels.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/sklearn/metrics/_classification.py:2480: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+
+===========================================================================
+FINAL RESULTS
+===========================================================================
+           model  accuracy  balanced_accuracy  macro_f1  weighted_f1  macro_f1_ci95_low  macro_f1_ci95_high
+        majority    0.3213             0.1111    0.0540       0.1562             0.0488              0.0592
+    logreg_tfidf    0.2892             0.2197    0.2092       0.3061             0.1728              0.2441
+linear_svm_tfidf    0.3072             0.2056    0.2048       0.3186             0.1693              0.2419
+     rf100_tfidf    0.3735             0.1930    0.1872       0.3344             0.1538              0.2209
+
+Results saved to: /home/tahiti/NewsEmo/results/phase1_inews

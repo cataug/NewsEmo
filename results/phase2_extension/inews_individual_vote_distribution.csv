@@ -1,0 +1,28 @@
+split,vote,n
+test,anger,48
+test,contempt,14
+test,disgust,15
+test,fear,25
+test,happy,69
+test,neutral,160
+test,other (please specify in the box below),11
+test,sad,104
+test,surprise,52
+train,anger,706
+train,contempt,301
+train,disgust,331
+train,fear,237
+train,happy,952
+train,neutral,2320
+train,other (please specify in the box below),149
+train,sad,1429
+train,surprise,925
+val,anger,18
+val,contempt,3
+val,disgust,8
+val,fear,5
+val,happy,21
+val,neutral,42
+val,other (please specify in the box below),2
+val,sad,41
+val,surprise,15

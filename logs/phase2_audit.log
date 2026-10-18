@@ -1,0 +1,70 @@
+=== NEWSEMO PHASE 2: READ-ONLY AUDIT ===
+inews_public                files=     8 images=     0 GB=0.027
+inews_screenshots           files=     1 images=     0 GB=0.000
+goodnewseveryone            files=    10 images=     0 GB=0.015
+semeval2007_affective_text  files=     9 images=     0 GB=0.000
+sens_visualnews             files=     7 images=     0 GB=0.001
+mirage_news                 files=    16 images=     0 GB=3.366
+newsclippings_ready         files=     1 images=     0 GB=1.599
+image_text_fake_news        files=     1 images=     0 GB=0.000
+n24news                     files=     6 images=     0 GB=0.045
+visualnews_original         files=    13 images=    13 GB=0.001
+
+=== FILES / LABELS / ARCHIVES ===
+[TABLE] datasets/inews_public/dev.csv rows= 155 classes= ['neutral', 'sad', 'happy', 'anger', 'surprise', 'disgust', 'fear', 'contempt', 'other (please specify in the box below)']
+[TABLE] datasets/inews_public/test_personalization_public.csv rows= 1641 classes= ['neutral', 'sad', 'happy', 'surprise', 'anger', 'fear', 'disgust', 'contempt', 'other (please specify in the box below)']
+[JSON] datasets/inews_public/survey_codebook.json records= None keys= ['V', 'A', 'D', 'Discrete', 'Source', 'Relevance', 'Post_ID', 'Annotator_ID', 'Message', 'Link.Text', 'Description', 'Page.Category']
+[TABLE] datasets/inews_public/test_generalization_public.csv rows= 1676 classes= ['neutral', 'sad', 'happy', 'surprise', 'anger', 'contempt', 'disgust', 'fear', 'other (please specify in the box below)']
+[TABLE] datasets/inews_public/train.csv rows= 7350 classes= ['neutral', 'sad', 'happy', 'surprise', 'anger', 'disgust', 'contempt', 'fear', 'other (please specify in the box below)']
+[TABLE] datasets/inews_public/test_cold_start_public.csv rows= 498 classes= ['neutral', 'sad', 'happy', 'surprise', 'anger', 'fear', 'disgust', 'contempt', 'other (please specify in the box below)']
+[ZIP] datasets/goodnewseveryone/goodnewseveryone-v1.0.zip valid= True images= 0 files= 8
+[TABLE] datasets/goodnewseveryone/extracted/goodnewseveryone-v1.0/gne-release-v1.0.tsv rows= 5000 classes= []
+[TEXT] datasets/semeval2007_affective_text/Annotations/M1.txt nonempty_lines= 1000
+[TEXT] datasets/semeval2007_affective_text/Annotations/M3.txt nonempty_lines= 1000
+[TEXT] datasets/semeval2007_affective_text/Annotations/F3.txt nonempty_lines= 1000
+[TEXT] datasets/semeval2007_affective_text/Annotations/F1.txt nonempty_lines= 1000
+[TEXT] datasets/semeval2007_affective_text/Annotations/M2.txt nonempty_lines= 1000
+[TEXT] datasets/semeval2007_affective_text/Annotations/F2.txt nonempty_lines= 1000
+[JSON] datasets/sens_visualnews/dataset/full_dev.json records= 956 keys= ['image', 'gt']
+[JSON] datasets/sens_visualnews/dataset/strict_dev.json records= 454 keys= ['image', 'gt']
+[JSON] datasets/sens_visualnews/dataset/full_test.json records= 8620 keys= ['image', 'gt']
+[JSON] datasets/sens_visualnews/dataset/strict_test.json records= 4088 keys= ['image', 'gt']
+[PARQUET] datasets/mirage_news/data/test-00003-of-00005.parquet rows= 500 columns= ['image', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test-00001-of-00005.parquet rows= 500 columns= ['image', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test4_bbc_sdxl-00000-of-00001.parquet rows= 500 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/train-00000-of-00001.parquet rows= 10000 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/validation-00000-of-00001.parquet rows= 2500 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test-00002-of-00005.parquet rows= 500 columns= ['image', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test3_cnn_dalle-00001-of-00002.parquet rows= 250 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test3_cnn_dalle-00000-of-00002.parquet rows= 250 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test2_bbc_dalle-00001-of-00002.parquet rows= 250 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test5_cnn_sdxl-00000-of-00001.parquet rows= 500 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test2_bbc_dalle-00000-of-00002.parquet rows= 250 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test-00000-of-00005.parquet rows= 500 columns= ['image', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test1_nyt_mj-00000-of-00001.parquet rows= 500 columns= ['image', 'label', 'text'] image_bytes= True
+[PARQUET] datasets/mirage_news/data/test-00004-of-00005.parquet rows= 500 columns= ['image', 'text'] image_bytes= True
+[ZIP] datasets/newsclippings_ready/test_dataset_newsclipping.zip valid= True images= 39362 files= 78727
+    [INSIDE JSON] test_dataset_newsclipping/links_test.json records= None fields= ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+    [INSIDE JSON] test_dataset_newsclipping/news_clippings_test.json records= None fields= ['source_datasets', 'annotations']
+    [INSIDE JSON] test_dataset_newsclipping/visual_news_test.json records= None fields= ['701864', '759902', '893678', '223946', '1171296', '139087', '250284', '1047594', '192946', '1052802', '313660', '151180']
+[PART] datasets/image_text_fake_news/figshare_28735676.zip.part bytes= 0 signature= b''
+
+=== INEWS CROSS-SPLIT POST OVERLAP ===
+[SHARED POSTS] test_cold_start_public.csv test_personalization_public.csv 343 (may be intended)
+[SHARED POSTS] test_generalization_public.csv train.csv 1214 (may be intended)
+
+=== DATA READINESS ===
+[YES] iNews human annotation tables
+[ NO] iNews original screenshots
+[YES] GoodNewsEveryone data
+[YES] SemEval data
+[YES] Sens-VisualNews labels
+[YES] Sens original images
+[YES] MiRAGeNews Parquet present
+[YES] MiRAGeNews Parquet readable
+[YES] NewsCLIPpings images inside valid ZIP
+[ NO] N24News image collection
+[ NO] Figshare valid archive
+
+Saved: /home/tahiti/NewsEmo/reports/phase2_audit.json
+No datasets modified. No installations.

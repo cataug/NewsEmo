@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "dataset": "pitehu/inews_public",
+  "test_split": "test_cold_start_public.csv",
+  "selection": "Development macro-F1 only",
+  "input_features": "TF-IDF of Message + Link.Text",
+  "tfidf_fit": "train only",
+  "bootstrap_unit": "Post_ID",
+  "bootstrap_repetitions": 1000,
+  "limitations": [
+    "Text-only experiment",
+    "Multiple subjective annotations per post",
+    "Cold-start held-out evaluation",
+    "News-source analysis is not demographic fairness",
+    "Small source groups may have unstable metrics"
+  ]
+}

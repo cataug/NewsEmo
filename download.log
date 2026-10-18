@@ -1,0 +1,115 @@
+
+[2026-10-14 08:36:38] Project root: /home/tahiti/NewsEmo
+
+[2026-10-14 08:36:38] Creating an isolated Python environment
+
+[2026-10-14 08:36:41] Installing download and validation dependencies
+Requirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (24.0)
+Collecting pip
+  Using cached pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting huggingface_hub
+  Using cached huggingface_hub-2.2.0-py3-none-any.whl.metadata (16 kB)
+Collecting hf_xet
+  Using cached hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub)
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting filelock>=3.10.0 (from huggingface_hub)
+  Using cached filelock-4.1.1-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface_hub)
+  Using cached fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting httpx2<3,>=2.0.0 (from huggingface_hub)
+  Using cached httpx2-2.13.1-py3-none-any.whl.metadata (9.8 kB)
+Collecting packaging>=20.9 (from huggingface_hub)
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pyyaml>=5.1 (from huggingface_hub)
+  Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting tqdm>=4.42.1 (from huggingface_hub)
+  Using cached tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting typing-extensions>=4.1.0 (from huggingface_hub)
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting anyio>=4.10 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Using cached anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting httpcore2==2.13.1 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Using cached httpcore2-2.13.1-py3-none-any.whl.metadata (26 kB)
+Collecting idna>=3.18 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->huggingface_hub)
+  Using cached truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting h11>=0.16 (from httpcore2==2.13.1->httpx2<3,>=2.0.0->huggingface_hub)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Using cached pip-26.2.1-py3-none-any.whl (1.8 MB)
+Using cached huggingface_hub-2.2.0-py3-none-any.whl (839 kB)
+Using cached hf_xet-1.7.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.2 MB)
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Using cached filelock-4.1.1-py3-none-any.whl (132 kB)
+Using cached fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Using cached httpx2-2.13.1-py3-none-any.whl (95 kB)
+Using cached httpcore2-2.13.1-py3-none-any.whl (83 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+Using cached tqdm-4.70.1-py3-none-any.whl (80 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Using cached anyio-4.15.1-py3-none-any.whl (132 kB)
+Using cached idna-3.20-py3-none-any.whl (69 kB)
+Using cached truststore-0.10.5-py3-none-any.whl (19 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Installing collected packages: typing-extensions, truststore, tqdm, pyyaml, pip, packaging, idna, hf_xet, h11, fsspec, filelock, click, httpcore2, anyio, httpx2, huggingface_hub
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed anyio-4.15.1 click-8.5.0 filelock-4.1.1 fsspec-2026.9.0 h11-0.16.0 hf_xet-1.7.0 httpcore2-2.13.1 httpx2-2.13.1 huggingface_hub-2.2.0 idna-3.20 packaging-26.3 pip-26.2.1 pyyaml-6.0.3 tqdm-4.70.1 truststore-0.10.5 typing-extensions-4.16.0
+
+[2026-10-14 08:36:47] [1/4] iNews public CSVs + codebook
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:03,  1.83it/s]Fetching 8 files:  25%|██▌       | 2/8 [00:00<00:02,  2.86it/s]Fetching 8 files:  62%|██████▎   | 5/8 [00:00<00:00,  7.96it/s]Fetching 8 files: 100%|██████████| 8/8 [00:12<00:00,  2.03s/it]Fetching 8 files: 100%|██████████| 8/8 [00:12<00:00,  1.57s/it]
+[OK] iNews: public CSV splits are present
+
+[2026-10-14 08:37:00] iNews public: complete
+
+[2026-10-14 08:37:00] Cloning https://github.com/pitehu/inews.git
+Cloning into '/home/tahiti/NewsEmo/datasets/inews_code'...
+
+[2026-10-14 08:37:01] iNews screenshots: checking approved Hugging Face access
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]
+[INFO] Screenshot access is not available: GatedRepoError 403 Client Error. (Request ID: Root=1-6acf14fe-0936da1c22729fd709e53dec;528bae35-00fe-4b13-a1ef-8a08f1d962e6)
+
+Cannot access gated repo for url https://huggingface.co/datasets/pitehu/inews_screenshots/resolve/c2f6d075c57b2d9f39374d2342c28a1
+Request approval at https://huggingface.co/datasets/pitehu/inews_screenshots
+After approval, log in with: ~/NewsEmo/.venv/bin/hf auth login
+[WARNING] Screenshots skipped (approval/login may be required); text labels are still available
+
+[2026-10-14 08:37:03] [2/4] GoodNewsEveryone
+
+[2026-10-14 08:37:03] Downloading: https://www.ims.uni-stuttgart.de/documents/ressourcen/korpora/goodnewseveryone/goodnewseveryone-v1.0.zip
+#=#=#                                                                          ##O#-#                                                                         ##O=#  #                                                                       #=#=-#  #                                                                                                                                                 1.2%######                                                                     9.5%#########################################                                 57.0%###########################################                               61.1%######################################################################## 100.0%
+
+[2026-10-14 08:37:04] GoodNewsEveryone: extracted
+
+[2026-10-14 08:37:04] [3/4] SemEval-2007 Affective Text, disaggregated annotations
+
+[2026-10-14 08:37:04] Cloning https://github.com/MichiganNLP/Affective-Text-Individual-Annotations.git
+Cloning into '/home/tahiti/NewsEmo/datasets/semeval2007_affective_text'...
+
+[2026-10-14 08:37:05] [4/4] Sens-VisualNews, four original JSON annotation splits
+
+[2026-10-14 08:37:05] Cloning https://github.com/IDT-ITI/Sens-VisualNews.git
+Cloning into '/home/tahiti/NewsEmo/datasets/sens_visualnews'...
+
+[2026-10-14 08:37:06] VisualNews 91 GB image archive skipped. To download: --full-visualnews
+
+[2026-10-14 08:37:06] Generating local dataset inventory
+
+DATASET INVENTORY
+inews_public                  OK         files=    8  size=      25.3 MiB
+inews_code                    CHECK      files=    5  size=       0.0 MiB
+inews_screenshots             CHECK      files=    1  size=       0.0 MiB
+goodnewseveryone              OK         files=   10  size=      14.2 MiB
+semeval2007_affective_text    OK         files=    9  size=       0.2 MiB
+sens_visualnews               OK         files=    7  size=       0.9 MiB
+visualnews_original           CHECK      files=    0  size=       0.0 MiB
+iNews rows by split: {'dev.csv': 155, 'test_personalization_public.csv': 1641, 'test_generalization_public.csv': 1676, 'train.csv': 7350, 'test_cold_start_public.csv': 498}
+Inventory: /home/tahiti/NewsEmo/reports/dataset_inventory.json
+
+[2026-10-14 08:37:07] Done. External dataset downloads inspected. See /home/tahiti/NewsEmo/reports/dataset_inventory.json
+
+[2026-10-14 08:37:07] Useful commands: du -sh '/home/tahiti/NewsEmo/datasets'/* ; cat '/home/tahiti/NewsEmo/reports/dataset_inventory.json'

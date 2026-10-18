@@ -1,0 +1,29 @@
+id,stem,note,source_files
+1,01_dataset_topology,"Record counts, split composition and classes for five datasets","['cache/manifests/inews.csv', 'cache/manifests/gne.csv', 'cache/manifests/mirage.csv', 'cache/manifests/clips.csv', 'cache/manifests/semeval.csv']"
+2,02_human_label_landscape,Per-class frequency of human labels in iNews and GNE,"['cache/manifests/inews.csv', 'cache/manifests/gne.csv']"
+3,03_label_inequality_curves,Lorenz curves of class-frequency concentration,"['cache/manifests/inews.csv', 'cache/manifests/gne.csv', 'cache/manifests/mirage.csv']"
+4,04_post_vote_entropy_map,Per-post human disagreement as a function of vote count,['results/phase2_extension/inews_post_vote_consensus.csv']
+5,05_rater_agreement_intervals,Nominal alpha intervals and pairwise agreement,['results/phase2_extension/inews_rater_agreement.csv']
+6,06_rater_workload_reliability,Individual rater sample counts vs majority agreement,['results/phase2_extension/inews_raters.csv']
+7,07_individual_vs_aggregate_emotion,Individual-level versus aggregated human-label model evaluation,['results/phase2_extension/inews_human_level_model_scores.csv']
+8,08_baseline_three_domain_leaderboards,Complete top-9 baseline ranking by corpus with seed SD,"['results/baseline.csv', 'results/baseline.csv', 'results/baseline.csv']"
+9,09_multiobjective_baseline_rank_flow,"Rank changes among validation F1, test F1 and worst-class recall on MiRAGe",['results/baseline.csv']
+10,10_seed_uncertainty_raincloud,Seed dispersion of top baselines by task,['results/baseline.csv']
+11,11_inews_best_confusion,Full per-class confusion geometry of the strongest baseline,['cache/predictions/inews/baseline_minilm_mlp_6_s42.npz']
+12,12_gne_best_confusion,Full per-class confusion geometry of the strongest baseline,['cache/predictions/gne/baseline_minilm_mlp_6_s42.npz']
+13,13_vad_dimension_error_atlas,Affective continuous-label regression by target and model feature,['results/vad.csv']
+14,14_ablation_delta_atlas,Feature ablation changes relative to predefined per-task reference,['results/ablation.csv']
+15,15_modality_contribution_ladder,Model-difference map of modality removals and shuffled images,['results/ablation.csv']
+16,16_vlm_matched_comparison,Controlled comparison of image-text VLM fusion against frozen embeddings,['results/vlm.csv']
+17,17_mirage_ood_domain_fan,Domain shift and seed dispersion in five fixed OOD test slices,['results/robustness.csv']
+18,18_perturbation_invariance_matrix,Cross-dataset surface perturbation robustness matrix,['results/robustness.csv']
+20,20_semeval_emotion_prompt_correlations,External per-emotion Spearman correlations by model and prompt,['results/semeval_zeroshot.csv']
+21,21_gne_role_precision_recall_bubbles,GNE P/R/F1 geometry for each role,['results/phase2_extension/gne_role_metrics.csv']
+22,22_gne_role_generalization_heatmap,GNE micro-F1 across roles and train/validation/test splits,['results/phase2_extension/gne_role_metrics.csv']
+23,23_gne_role_boundary_precision_dumbbell,Exact span vs token overlap per emotional role,['results/phase2_extension/gne_role_metrics.csv']
+25,25_gne_gold_span_alignment_coverage,Alignment yield and sample sizes of GNE gold role spans,['results/phase2_extension/gne_gold_annotation_alignment_audit.csv']
+26,26_gne_intensity_collapse_diagnostic,Absolute label collapse and magnified minority intensity counts,['results/phase2_extension/gne_intensity_counts.csv']
+27,27_pareto_reference_sensitivity,Exact hypervolume by optimizer and reference point for three datasets,['results/phase2_extension/pareto_hypervolume_exact.csv']
+28,28_pareto_validation_test_generalization,Pareto optimization validation/test performance and chosen complexity,['results/pareto.csv']
+29,29_leave_source_out_transfer_matrix,Source-holdout generalization by corpus and feature family,['results/source_holdout.csv']
+30,30_paired_inference_forest_atlas,Cluster-bootstrap intervals with exploratory BH significance (display de-duplicated),['results/phase2_extension/paired_randomization_BH_exploratory.csv']

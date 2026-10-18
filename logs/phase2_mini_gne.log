@@ -1,0 +1,11 @@
+15:20:12 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+15:20:15 EXTRACT minilm gne 24 / 5000
+15:20:17 EXTRACT minilm gne 624 / 5000
+15:20:19 EXTRACT minilm gne 1224 / 5000
+15:20:20 EXTRACT minilm gne 1824 / 5000
+15:20:23 EXTRACT minilm gne 2424 / 5000
+15:20:24 EXTRACT minilm gne 3024 / 5000
+15:20:26 EXTRACT minilm gne 3624 / 5000
+15:20:28 EXTRACT minilm gne 4224 / 5000
+15:20:30 EXTRACT minilm gne 4824 / 5000
+15:20:30 COMPLETE minilm gne

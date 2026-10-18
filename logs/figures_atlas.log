@@ -1,0 +1,35 @@
+NEWSEMO SCIENTIFIC FIGURE ATLAS — STYLE REF: fractional-lora-unlearning/FIGURES
+Project: /home/tahiti/NewsEmo  | Output: /home/tahiti/NewsEmo/FIGURES
+[SAVED] 01_dataset_topology PDF + PNG
+[SAVED] 02_human_label_landscape PDF + PNG
+[SAVED] 03_label_inequality_curves PDF + PNG
+[SAVED] 04_post_vote_entropy_map PDF + PNG
+[SAVED] 05_rater_agreement_intervals PDF + PNG
+[SAVED] 06_rater_workload_reliability PDF + PNG
+[SAVED] 07_individual_vs_aggregate_emotion PDF + PNG
+[SAVED] 08_baseline_three_domain_leaderboards PDF + PNG
+[SAVED] 09_multiobjective_baseline_rank_flow PDF + PNG
+[SAVED] 10_seed_uncertainty_raincloud PDF + PNG
+[SAVED] 11_inews_best_confusion PDF + PNG
+[SAVED] 12_gne_best_confusion PDF + PNG
+[SAVED] 13_vad_dimension_error_atlas PDF + PNG
+[SAVED] 14_ablation_delta_atlas PDF + PNG
+[SAVED] 15_modality_contribution_ladder PDF + PNG
+[SAVED] 16_vlm_matched_comparison PDF + PNG
+[SAVED] 17_mirage_ood_domain_fan PDF + PNG
+[SAVED] 18_perturbation_invariance_matrix PDF + PNG
+[ERROR] FIG 19: TypeError: agg function failed [how->mean,dtype->object]
+[SAVED] 20_semeval_emotion_prompt_correlations PDF + PNG
+[SAVED] 21_gne_role_precision_recall_bubbles PDF + PNG
+[SAVED] 22_gne_role_generalization_heatmap PDF + PNG
+[SAVED] 23_gne_role_boundary_precision_dumbbell PDF + PNG
+[ERROR] FIG 24: TypeError: '>=' not supported between instances of 'int' and 'str'
+[SAVED] 25_gne_gold_span_alignment_coverage PDF + PNG
+[SAVED] 26_gne_intensity_collapse_diagnostic PDF + PNG
+[SAVED] 27_pareto_reference_sensitivity PDF + PNG
+[SAVED] 28_pareto_validation_test_generalization PDF + PNG
+[SAVED] 29_leave_source_out_transfer_matrix PDF + PNG
+[SAVED] 30_paired_inference_forest_atlas PDF + PNG
+
+[SUMMARY] figures=28 failed=2
+[ERROR DETAILS] FIGURES/figure_manifest.json

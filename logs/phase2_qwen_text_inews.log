@@ -1,0 +1,175 @@
+15:45:11 LOAD LLM qwen2_5_7b_instruct cuda
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:12,  4.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.12s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:04,  4.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  3.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:16<00:00,  4.00s/it]
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+15:59:47 LLM llm inews 50 / 2510 cached 50
+16:14:14 LLM llm inews 100 / 2510 cached 100
+16:28:20 LLM llm inews 150 / 2510 cached 150
+16:42:29 LLM llm inews 200 / 2510 cached 200
+16:56:36 LLM llm inews 250 / 2510 cached 250
+17:11:17 LLM llm inews 300 / 2510 cached 300
+17:25:52 LLM llm inews 350 / 2510 cached 350
+17:40:00 LLM llm inews 400 / 2510 cached 400
+17:46:38 BAD JSON llm Phase2_600 ```json
+{
+  "frame": "Political Criticism",
+  "stance": "Critical",
+  "focus": "
+17:54:03 LLM llm inews 450 / 2510 cached 449
+17:57:33 LOAD LLM qwen2_5_7b_instruct cuda
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.25s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.20s/it]
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+17:57:59 BAD JSON RETRY llm Phase2_600 ```json
+{
+  "frame": "Political Criticism",
+  "stance": "Critical",
+  "focus": "Biden's inaction during Juneteenth",
+  "
+17:58:17 BAD JSON SKIPPED llm Phase2_600 ```json
+{
+  "frame": "Political Criticism",
+  "stance": "Critical",
+  "focus": "Biden's inaction during Juneteenth",
+  "evidence": "'Joe Biden \'freezes\' durin
+18:09:31 LLM llm inews 500 / 2510 cached 499
+18:20:33 BAD JSON RETRY llm Phase2_800 ```json
+{
+  "frame": "Personal Update",
+  "stance": "Neutral",
+  "focus": "Family Update",
+  "evidence": "Jasmine Harman
+18:20:51 BAD JSON SKIPPED llm Phase2_800 ```json
+{
+  "frame": "Personal Update",
+  "stance": "Neutral",
+  "focus": "Family Update",
+  "evidence": "Jasmine Harman's 'overwhelming' family update",
+  "unc
+18:24:16 LLM llm inews 550 / 2510 cached 548
+18:38:18 LLM llm inews 600 / 2510 cached 598
+18:52:54 LLM llm inews 650 / 2510 cached 648
+19:07:21 LLM llm inews 700 / 2510 cached 698
+19:21:38 LLM llm inews 750 / 2510 cached 748
+19:33:36 BAD JSON RETRY llm Phase3_467 ```json
+{
+  "frame": "Political",
+  "stance": "Neutral",
+  "focus": "Public Appearances",
+  "evidence": "Melania 'repeat
+19:33:51 BAD JSON SKIPPED llm Phase3_467 ```json
+{
+  "frame": "Political",
+  "stance": "Neutral",
+  "focus": "Public Appearances",
+  "evidence": "Melania 'repeatedly turned down' requests to speak at R
+19:35:53 LLM llm inews 800 / 2510 cached 797
+19:50:08 LLM llm inews 850 / 2510 cached 847
+20:04:32 LLM llm inews 900 / 2510 cached 897
+20:18:57 LLM llm inews 950 / 2510 cached 947
+20:33:17 LLM llm inews 1000 / 2510 cached 997
+20:47:41 LLM llm inews 1050 / 2510 cached 1047
+21:02:02 LLM llm inews 1100 / 2510 cached 1097
+21:15:09 BAD JSON RETRY llm Phase3_756 ```json
+{
+  "frame": "Scientific Discovery",
+  "'stance: 'Informative",
+  "focus": "Ageing Research",
+  "evidence": "'Su
+21:15:26 BAD JSON SKIPPED llm Phase3_756 ```json
+{
+  "frame": "Scientific Discovery",
+  "'stance: 'Informative",
+  "focus": "Ageing Research",
+  "evidence": "'Supermodel granny' drug extends life in an
+21:16:38 LLM llm inews 1150 / 2510 cached 1146
+21:30:57 LLM llm inews 1200 / 2510 cached 1196
+21:45:15 LLM llm inews 1250 / 2510 cached 1246
+21:59:40 LLM llm inews 1300 / 2510 cached 1296
+22:11:37 BAD JSON RETRY llm Phase1_991 ```json
+{
+  "frame": "Travel",
+  "stance": "Warning",
+  "focus": "Personal Experience",
+  "evidence": "Woman 'cries in f
+22:11:55 BAD JSON SKIPPED llm Phase1_991 ```json
+{
+  "frame": "Travel",
+  "stance": "Warning",
+  "focus": "Personal Experience",
+  "evidence": "Woman 'cries in front of everyone'",
+  "uncertainty": 0.2
+22:14:15 BAD JSON RETRY llm Phase1_1158 ```json
+[
+    {
+        "frame": "Personal Confession",
+        "stance": "Neutral",
+        "focus": "Past Actions and 
+22:14:51 BAD JSON SKIPPED llm Phase1_1158 ```json
+[
+    {
+        "frame": "Personal Confession",
+        "stance": "Neutral",
+        "focus": "Past Actions and Justification",
+        "evidence": "she
+22:15:08 LLM llm inews 1350 / 2510 cached 1344
+22:29:04 LLM llm inews 1400 / 2510 cached 1394
+22:41:48 LLM llm inews 1450 / 2510 cached 1444
+22:54:30 LLM llm inews 1500 / 2510 cached 1494
+23:07:07 LLM llm inews 1550 / 2510 cached 1544
+23:19:35 LLM llm inews 1600 / 2510 cached 1594
+23:32:08 LLM llm inews 1650 / 2510 cached 1644
+23:44:39 LLM llm inews 1700 / 2510 cached 1694
+23:57:03 LLM llm inews 1750 / 2510 cached 1744
+00:09:57 LLM llm inews 1800 / 2510 cached 1794
+00:22:25 LLM llm inews 1850 / 2510 cached 1844
+00:25:43 BAD JSON RETRY llm Phase1_396 ```json
+{
+  "frame": "Entertainment",
+  use_markdown: false,
+  "stance": "Neutral",
+  "focus": "Celebrity participation 
+00:26:01 BAD JSON SKIPPED llm Phase1_396 ```json
+{
+  "frame": "Entertainment",
+  use_markdown: false,
+  "stance": "Neutral",
+  "focus": "Celebrity participation in the London Marathon",
+  "evidence": "
+00:35:22 LLM llm inews 1900 / 2510 cached 1893
+00:47:48 LLM llm inews 1950 / 2510 cached 1943
+01:00:33 LLM llm inews 2000 / 2510 cached 1993
+01:13:15 LLM llm inews 2050 / 2510 cached 2043
+01:25:44 LLM llm inews 2100 / 2510 cached 2093
+01:38:18 LLM llm inews 2150 / 2510 cached 2143
+01:50:23 BAD JSON RETRY llm Phase3_845 ```json
+{
+  "frame": "Relationship conflict",
+  "stance": "Neutral",
+  "focus": "Romantic relationship issues",
+  "evide
+01:50:37 BAD JSON SKIPPED llm Phase3_845 ```json
+{
+  "frame": "Relationship conflict",
+  "stance": "Neutral",
+  "focus": "Romantic relationship issues",
+  "evidence": "'She\'s using him.'",
+  "uncertai
+01:51:08 LLM llm inews 2200 / 2510 cached 2192
+02:03:41 LLM llm inews 2250 / 2510 cached 2242
+02:16:22 LLM llm inews 2300 / 2510 cached 2292
+02:28:58 LLM llm inews 2350 / 2510 cached 2342
+02:41:30 LLM llm inews 2400 / 2510 cached 2392
+02:53:56 LLM llm inews 2450 / 2510 cached 2442
+03:06:21 LLM llm inews 2500 / 2510 cached 2492
+03:08:50 LLM COMPLETE llm inews 2502 / 2510

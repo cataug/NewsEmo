@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-10-14T11:30:15.019972+00:00",
+  "project": "/home/tahiti/NewsEmo",
+  "models": {
+    "qwen2_5_7b_instruct": {
+      "status": "LINKED",
+      "source": "/home/tahiti/TimeBound/models/Qwen__Qwen2.5-7B-Instruct",
+      "link": "/home/tahiti/NewsEmo/models/qwen2_5_7b_instruct",
+      "weights_gb": 15.231,
+      "alternatives": []
+    },
+    "qwen3_8b": {
+      "status": "LINKED",
+      "source": "/home/tahiti/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+      "link": "/home/tahiti/NewsEmo/models/qwen3_8b",
+      "weights_gb": 16.382,
+      "alternatives": []
+    },
+    "qwen2_5_coder_7b": {
+      "status": "LINKED",
+      "source": "/home/tahiti/crypto/models/Qwen2.5-Coder-7B-Instruct",
+      "link": "/home/tahiti/NewsEmo/models/qwen2_5_coder_7b",
+      "weights_gb": 15.231,
+      "alternatives": []
+    },
+    "qwen2_5_vl_7b": {
+      "status": "LINKED",
+      "source": "/home/tahiti/CoMUL/models/qwen2_5_vl_7b_instruct",
+      "link": "/home/tahiti/NewsEmo/models/qwen2_5_vl_7b",
+      "weights_gb": 16.584,
+      "alternatives": []
+    },
+    "qwen2_5_vl_3b": {
+      "status": "LINKED",
+      "source": "/home/tahiti/ARTeccv/models/qwen2_5_vl_3b_instruct",
+      "link": "/home/tahiti/NewsEmo/models/qwen2_5_vl_3b",
+      "weights_gb": 7.509,
+      "alternatives": []
+    },
+    "clip_vit_b32": {
+      "status": "LINKED",
+      "source": "/home/tahiti/Forensics/models/clip_vit_base_patch32",
+      "link": "/home/tahiti/NewsEmo/models/clip_vit_b32",
+      "weights_gb": 0.605,
+      "alternatives": [
+        {
+          "path": "/home/tahiti/UME2026/models/clip/clip-vit-base-patch32",
+          "weights": 1,
+          "weight_gb": 0.605
+        },
+        {
+          "path": "/home/tahiti/MARINE_DATASETS/MARINE_MODELS/clip_vit_base",
+          "weights": 1,
+          "weight_gb": 0.605
+        },
+        {
+          "path": "/home/tahiti/UME2026/models/hf_cache/models--openai--clip-vit-base-patch32/snapshots/3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+          "weights": 1,
+          "weight_gb": 0.605
+        }
+      ]
+    },
+    "clip_vit_l14": {
+      "status": "LINKED",
+      "source": "/home/tahiti/MARINE_DATASETS/MARINE_MODELS/clip_vit_large",
+      "link": "/home/tahiti/NewsEmo/models/clip_vit_l14",
+      "weights_gb": 3.421,
+      "alternatives": []
+    },
+    "dinov2_small": {
+      "status": "LINKED",
+      "source": "/home/tahiti/Forensics/models/dinov2_small",
+      "link": "/home/tahiti/NewsEmo/models/dinov2_small",
+      "weights_gb": 0.177,
+      "alternatives": []
+    },
+    "minilm_l6_v2": {
+      "status": "LINKED",
+      "source": "/home/tahiti/Forensics/models/minilm_l6_v2",
+      "link": "/home/tahiti/NewsEmo/models/minilm_l6_v2",
+      "weights_gb": 0.182,
+      "alternatives": []
+    },
+    "openclip_laion_b32": {
+      "status": "MISSING"
+    }
+  },
+  "text_llm_selected": "qwen2_5_7b_instruct"
+}

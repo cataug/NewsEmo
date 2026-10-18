@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-10-14T05:37:06.841934+00:00",
+  "root": "/home/tahiti/NewsEmo",
+  "datasets": {
+    "inews_public": {
+      "path": "/home/tahiti/NewsEmo/datasets/inews_public",
+      "files": 8,
+      "bytes": 26505249,
+      "size_MiB": 25.28,
+      "required_present": true,
+      "missing_required": [],
+      "csv_rows": {
+        "dev.csv": 155,
+        "test_personalization_public.csv": 1641,
+        "test_generalization_public.csv": 1676,
+        "train.csv": 7350,
+        "test_cold_start_public.csv": 498
+      }
+    },
+    "inews_code": {
+      "path": "/home/tahiti/NewsEmo/datasets/inews_code",
+      "files": 5,
+      "bytes": 28275,
+      "size_MiB": 0.03,
+      "required_present": null,
+      "missing_required": []
+    },
+    "inews_screenshots": {
+      "path": "/home/tahiti/NewsEmo/datasets/inews_screenshots",
+      "files": 1,
+      "bytes": 3637,
+      "size_MiB": 0.0,
+      "required_present": null,
+      "missing_required": []
+    },
+    "goodnewseveryone": {
+      "path": "/home/tahiti/NewsEmo/datasets/goodnewseveryone",
+      "files": 10,
+      "bytes": 14938243,
+      "size_MiB": 14.25,
+      "required_present": true,
+      "missing_required": []
+    },
+    "semeval2007_affective_text": {
+      "path": "/home/tahiti/NewsEmo/datasets/semeval2007_affective_text",
+      "files": 9,
+      "bytes": 207520,
+      "size_MiB": 0.2,
+      "required_present": true,
+      "missing_required": []
+    },
+    "sens_visualnews": {
+      "path": "/home/tahiti/NewsEmo/datasets/sens_visualnews",
+      "files": 7,
+      "bytes": 970779,
+      "size_MiB": 0.93,
+      "required_present": true,
+      "missing_required": [],
+      "full_dev.json": 956,
+      "full_test.json": 8620,
+      "strict_dev.json": 454,
+      "strict_test.json": 4088
+    },
+    "visualnews_original": {
+      "path": "/home/tahiti/NewsEmo/datasets/visualnews_original",
+      "files": 0,
+      "bytes": 0,
+      "size_MiB": 0.0,
+      "required_present": null,
+      "missing_required": []
+    }
+  }
+}

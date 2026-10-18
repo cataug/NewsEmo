@@ -1,0 +1,373 @@
+2026-10-15 09:36:03 PREFLIGHT PASSED
+2026-10-15 09:36:03 START prepare
+09:36:04 PREPARE DONE
+2026-10-15 09:36:04 DONE prepare
+2026-10-15 09:36:04 START stats_inews
+09:36:04 STATS inews (2510, 10)
+2026-10-15 09:36:04 DONE stats_inews
+2026-10-15 09:36:04 START stats_gne
+09:36:05 STATS gne (5000, 10)
+2026-10-15 09:36:05 DONE stats_gne
+2026-10-15 09:36:05 START stats_semeval
+09:36:05 STATS semeval (1000, 10)
+2026-10-15 09:36:05 DONE stats_semeval
+2026-10-15 09:36:05 START stats_mirage
+09:36:06 STATS mirage (15000, 10)
+2026-10-15 09:36:06 DONE stats_mirage
+2026-10-15 09:36:06 START stats_clips
+09:36:06 STATS clips (6925, 10)
+2026-10-15 09:36:07 DONE stats_clips
+2026-10-15 09:36:07 START minilm_inews
+09:36:11 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+09:36:11 COMPLETE minilm inews
+2026-10-15 09:36:12 DONE minilm_inews
+2026-10-15 09:36:12 START minilm_gne
+09:36:16 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+09:36:17 COMPLETE minilm gne
+2026-10-15 09:36:18 DONE minilm_gne
+2026-10-15 09:36:18 START minilm_mirage
+09:36:22 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+09:36:23 COMPLETE minilm mirage
+2026-10-15 09:36:24 DONE minilm_mirage
+2026-10-15 09:36:24 START cliptext_mirage
+09:36:28 LOAD cliptext /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:36:29 COMPLETE cliptext mirage
+2026-10-15 09:36:31 DONE cliptext_mirage
+2026-10-15 09:36:31 START clipimage_mirage
+09:36:35 LOAD clipimage /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:36:36 COMPLETE clipimage mirage
+2026-10-15 09:36:37 DONE clipimage_mirage
+2026-10-15 09:36:37 START cliptext_clips
+09:36:41 LOAD cliptext /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:36:42 COMPLETE cliptext clips
+2026-10-15 09:36:43 DONE cliptext_clips
+2026-10-15 09:36:43 START clipimage_clips
+09:36:47 LOAD clipimage /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:36:48 COMPLETE clipimage clips
+2026-10-15 09:36:49 DONE clipimage_clips
+2026-10-15 09:36:49 START dino_mirage
+09:36:53 LOAD dinov2 /home/tahiti/NewsEmo/models/dinov2_small cuda
+09:36:54 COMPLETE dinov2 mirage
+2026-10-15 09:36:55 DONE dino_mirage
+2026-10-15 09:36:55 START cliptextL_clips
+09:36:59 LOAD cliptextL /home/tahiti/NewsEmo/models/clip_vit_l14 cuda
+09:37:01 COMPLETE cliptextL clips
+2026-10-15 09:37:01 DONE cliptextL_clips
+2026-10-15 09:37:01 START clipimageL_clips
+09:37:05 LOAD clipimageL /home/tahiti/NewsEmo/models/clip_vit_l14 cuda
+09:37:07 COMPLETE clipimageL clips
+2026-10-15 09:37:08 DONE clipimageL_clips
+2026-10-15 09:37:08 STOP RuntimeError('gne llm: missing or duplicated UIDs') — caches preserved; inspect log and rerun after correction
+2026-10-15 09:43:11 PREFLIGHT PASSED
+2026-10-15 09:43:11 START prepare
+09:43:11 PREPARE DONE
+2026-10-15 09:43:11 DONE prepare
+2026-10-15 09:43:11 START stats_inews
+09:43:12 STATS inews (2510, 10)
+2026-10-15 09:43:12 DONE stats_inews
+2026-10-15 09:43:12 START stats_gne
+09:43:12 STATS gne (5000, 10)
+2026-10-15 09:43:12 DONE stats_gne
+2026-10-15 09:43:12 START stats_semeval
+09:43:13 STATS semeval (1000, 10)
+2026-10-15 09:43:13 DONE stats_semeval
+2026-10-15 09:43:13 START stats_mirage
+09:43:13 STATS mirage (15000, 10)
+2026-10-15 09:43:13 DONE stats_mirage
+2026-10-15 09:43:13 START stats_clips
+09:43:14 STATS clips (6925, 10)
+2026-10-15 09:43:14 DONE stats_clips
+2026-10-15 09:43:14 START minilm_inews
+09:43:18 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+09:43:18 COMPLETE minilm inews
+2026-10-15 09:43:19 DONE minilm_inews
+2026-10-15 09:43:19 START minilm_gne
+09:43:23 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+09:43:23 COMPLETE minilm gne
+2026-10-15 09:43:24 DONE minilm_gne
+2026-10-15 09:43:24 START minilm_mirage
+09:43:28 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+09:43:29 COMPLETE minilm mirage
+2026-10-15 09:43:29 DONE minilm_mirage
+2026-10-15 09:43:29 START cliptext_mirage
+09:43:33 LOAD cliptext /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:43:35 COMPLETE cliptext mirage
+2026-10-15 09:43:35 DONE cliptext_mirage
+2026-10-15 09:43:35 START clipimage_mirage
+09:43:39 LOAD clipimage /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:43:41 COMPLETE clipimage mirage
+2026-10-15 09:43:42 DONE clipimage_mirage
+2026-10-15 09:43:42 START cliptext_clips
+09:43:46 LOAD cliptext /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:43:47 COMPLETE cliptext clips
+2026-10-15 09:43:48 DONE cliptext_clips
+2026-10-15 09:43:48 START clipimage_clips
+09:43:52 LOAD clipimage /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+09:43:53 COMPLETE clipimage clips
+2026-10-15 09:43:54 DONE clipimage_clips
+2026-10-15 09:43:54 START dino_mirage
+09:43:58 LOAD dinov2 /home/tahiti/NewsEmo/models/dinov2_small cuda
+09:43:59 COMPLETE dinov2 mirage
+2026-10-15 09:43:59 DONE dino_mirage
+2026-10-15 09:43:59 START cliptextL_clips
+09:44:03 LOAD cliptextL /home/tahiti/NewsEmo/models/clip_vit_l14 cuda
+09:44:05 COMPLETE cliptextL clips
+2026-10-15 09:44:05 DONE cliptextL_clips
+2026-10-15 09:44:05 START clipimageL_clips
+09:44:10 LOAD clipimageL /home/tahiti/NewsEmo/models/clip_vit_l14 cuda
+09:44:11 COMPLETE clipimageL clips
+2026-10-15 09:44:12 DONE clipimageL_clips
+2026-10-15 09:44:13 DENSE FEATURES VERIFIED
+2026-10-15 09:44:13 AUDIT inews llm total 2510 complete 2510 remaining 0 invalid_jsonl_lines 0
+2026-10-15 09:44:13 AUDIT gne llm total 5000 complete 0 remaining 5000 invalid_jsonl_lines 0
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.00it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.06it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]
+2026-10-15 09:45:56 INCOMPLETE gne llm 70c615fa ['quotation_density']
+2026-10-15 09:46:32 INCOMPLETE gne llm 707159d4 ['quotation_density']
+2026-10-15 09:47:03 INCOMPLETE gne llm f89251ff ['quotation_density']
+2026-10-15 09:47:25 PROGRESS gne llm 50 / 5000
+2026-10-15 09:50:27 INCOMPLETE gne llm 61cb85ff ['quotation_density']
+2026-10-15 09:51:27 PROGRESS gne llm 100 / 5000
+2026-10-15 09:53:38 INCOMPLETE gne llm 0def6eae ['quotation_density']
+2026-10-15 09:54:38 INCOMPLETE gne llm c82dbc6f ['quotation_density']
+2026-10-15 09:55:32 PROGRESS gne llm 150 / 5000
+2026-10-15 09:56:12 INCOMPLETE gne llm f51a7c2e ['quotation_density']
+2026-10-15 09:58:32 INCOMPLETE gne llm 505705ee ['quotation_density']
+2026-10-15 09:59:35 INCOMPLETE gne llm 4a06948b ['sensational_language']
+2026-10-15 09:59:45 PROGRESS gne llm 200 / 5000
+2026-10-15 10:03:45 PROGRESS gne llm 250 / 5000
+2026-10-15 10:04:26 INCOMPLETE gne llm 24d146d9 ['quotation_density']
+2026-10-15 10:06:52 INCOMPLETE gne llm 9b5ce235 ['quotation_density']
+2026-10-15 10:07:49 PROGRESS gne llm 300 / 5000
+2026-10-15 10:09:56 INCOMPLETE gne llm 393ce6a1 ['quotation_density']
+2026-10-15 10:11:16 PROGRESS gne llm 350 / 5000
+2026-10-15 10:14:14 PROGRESS gne llm 400 / 5000
+2026-10-15 10:14:42 INCOMPLETE gne llm 17233bce ['quotation_density']
+2026-10-15 10:16:42 INCOMPLETE gne llm 6c8656c5 ['quotation_density']
+2026-10-15 10:17:14 PROGRESS gne llm 450 / 5000
+2026-10-15 10:17:45 INCOMPLETE gne llm e7dd5f55 ['sensational_language']
+2026-10-15 10:18:20 INCOMPLETE gne llm 156c850a ['sensational_language']
+2026-10-15 10:20:11 PROGRESS gne llm 500 / 5000
+2026-10-15 10:21:04 INCOMPLETE gne llm 9f367d94 ['quotation_density']
+2026-10-15 10:23:09 PROGRESS gne llm 550 / 5000
+2026-10-15 10:25:04 INCOMPLETE gne llm 108bdfe9 ['quotation_density']
+2026-10-15 10:26:07 PROGRESS gne llm 600 / 5000
+2026-10-15 10:26:49 INCOMPLETE gne llm 9095c8ff ['quotation_density']
+2026-10-15 10:28:14 INCOMPLETE gne llm 045a73aa ['quotation_density']
+2026-10-15 10:29:10 PROGRESS gne llm 650 / 5000
+2026-10-15 10:29:40 INCOMPLETE gne llm 5bda0025 ['quotation_density']
+2026-10-15 10:30:20 INCOMPLETE gne llm 6268d809 ['quotation_density']
+2026-10-15 10:32:15 PROGRESS gne llm 700 / 5000
+2026-10-15 10:35:15 PROGRESS gne llm 750 / 5000
+2026-10-15 10:38:09 PROGRESS gne llm 800 / 5000
+2026-10-15 10:40:02 INCOMPLETE gne llm 482f7b4e ['quotation_density']
+2026-10-15 10:40:34 INCOMPLETE gne llm f957e952 ['quotation_density']
+2026-10-15 10:41:11 PROGRESS gne llm 850 / 5000
+2026-10-15 10:44:09 PROGRESS gne llm 900 / 5000
+2026-10-15 10:45:35 INCOMPLETE gne llm 37c13223 ['quotation_density']
+2026-10-15 10:46:55 INCOMPLETE gne llm a5d720cf ['quotation_density']
+2026-10-15 10:47:09 PROGRESS gne llm 950 / 5000
+2026-10-15 10:47:45 INCOMPLETE gne llm 051eea58 ['quotation_density']
+2026-10-15 10:50:04 PROGRESS gne llm 1000 / 5000
+2026-10-15 10:53:01 PROGRESS gne llm 1050 / 5000
+2026-10-15 10:56:03 PROGRESS gne llm 1100 / 5000
+2026-10-15 10:56:15 INCOMPLETE gne llm 4f509c5f ['sensational_language']
+2026-10-15 10:58:44 INCOMPLETE gne llm 095df261 ['quotation_density']
+2026-10-15 10:59:07 PROGRESS gne llm 1150 / 5000
+2026-10-15 11:00:28 INCOMPLETE gne llm 3047f326 ['quotation_density']
+2026-10-15 11:00:54 INCOMPLETE gne llm 1e72f34a ['quotation_density']
+2026-10-15 11:02:11 PROGRESS gne llm 1200 / 5000
+2026-10-15 11:03:17 INCOMPLETE gne llm 6fcb9846 ['quotation_density']
+2026-10-15 11:04:04 INCOMPLETE gne llm f1ef9dac ['quotation_density']
+2026-10-15 11:05:12 PROGRESS gne llm 1250 / 5000
+2026-10-15 11:05:37 INCOMPLETE gne llm 97873456 ['sensational_language']
+2026-10-15 11:06:23 INCOMPLETE gne llm 74c76d5c ['quotation_density']
+2026-10-15 11:07:25 INCOMPLETE gne llm 87aaed79 ['quotation_density']
+2026-10-15 11:08:11 PROGRESS gne llm 1300 / 5000
+2026-10-15 11:08:26 INCOMPLETE gne llm 58d9b8a8 ['quotation_density']
+2026-10-15 11:11:12 PROGRESS gne llm 1350 / 5000
+2026-10-15 11:13:57 INCOMPLETE gne llm 6b438817 ['quotation_density']
+2026-10-15 11:14:09 INCOMPLETE gne llm 692c9b35 ['sensational_language']
+2026-10-15 11:14:12 PROGRESS gne llm 1400 / 5000
+2026-10-15 11:16:11 INCOMPLETE gne llm 312edbec ['quotation_density']
+2026-10-15 11:17:07 PROGRESS gne llm 1450 / 5000
+2026-10-15 11:17:33 INCOMPLETE gne llm 26d758e0 ['quotation_density']
+2026-10-15 11:18:03 INCOMPLETE gne llm 9af441f5 ['quotation_density']
+2026-10-15 11:18:17 INCOMPLETE gne llm 56b57428 ['quotation_density']
+2026-10-15 11:20:03 PROGRESS gne llm 1500 / 5000
+2026-10-15 11:20:42 INCOMPLETE gne llm a7110519 ['sensational_language']
+2026-10-15 11:20:46 INCOMPLETE gne llm 231bb565 ['quotation_density']
+2026-10-15 11:22:15 INCOMPLETE gne llm 52093ae4 ['sensational_language']
+2026-10-15 11:23:09 PROGRESS gne llm 1550 / 5000
+2026-10-15 11:26:07 INCOMPLETE gne llm 85c35a3a ['quotation_density']
+2026-10-15 11:26:11 PROGRESS gne llm 1600 / 5000
+2026-10-15 11:26:40 INCOMPLETE gne llm 1244068a ['quotation_density']
+2026-10-15 11:28:13 INCOMPLETE gne llm 70fd5418 ['quotation_density']
+2026-10-15 11:28:43 INCOMPLETE gne llm 1c49f65f ['quotation_density']
+2026-10-15 11:29:18 PROGRESS gne llm 1650 / 5000
+2026-10-15 11:32:18 PROGRESS gne llm 1700 / 5000
+2026-10-15 11:33:24 INCOMPLETE gne llm 9efeeef3 ['quotation_density']
+2026-10-15 11:34:29 INCOMPLETE gne llm a712412f ['quotation_density']
+2026-10-15 11:35:18 PROGRESS gne llm 1750 / 5000
+2026-10-15 11:35:33 INCOMPLETE gne llm a164c1e1 ['sensational_language']
+2026-10-15 11:35:44 INCOMPLETE gne llm 7b498aff ['quotation_density']
+2026-10-15 11:38:22 PROGRESS gne llm 1800 / 5000
+2026-10-15 11:39:27 INCOMPLETE gne llm ae24ebd5 ['quotation_density']
+2026-10-15 11:41:20 PROGRESS gne llm 1850 / 5000
+2026-10-15 11:41:40 INCOMPLETE gne llm 3ce8afbc ['sensational_language']
+2026-10-15 11:43:59 INCOMPLETE gne llm f5d54d95 ['sensational_language']
+2026-10-15 11:44:18 PROGRESS gne llm 1900 / 5000
+2026-10-15 11:45:59 INCOMPLETE gne llm 58e563b8 ['quotation_density']
+2026-10-15 11:47:14 PROGRESS gne llm 1950 / 5000
+2026-10-15 11:47:32 INCOMPLETE gne llm 023ffae5 ['quotation_density']
+2026-10-15 11:50:14 PROGRESS gne llm 2000 / 5000
+2026-10-15 11:53:44 PROGRESS gne llm 2050 / 5000
+2026-10-15 11:55:24 INCOMPLETE gne llm 22d2edfc ['quotation_density']
+2026-10-15 11:57:40 PROGRESS gne llm 2100 / 5000
+2026-10-15 12:01:37 PROGRESS gne llm 2150 / 5000
+2026-10-15 12:05:09 INCOMPLETE gne llm 4f519189 ['quotation_density']
+2026-10-15 12:05:15 INCOMPLETE gne llm c3e58166 ['quotation_density']
+2026-10-15 12:05:33 PROGRESS gne llm 2200 / 5000
+2026-10-15 12:07:53 INCOMPLETE gne llm a9ade56f ['quotation_density']
+2026-10-15 12:09:30 PROGRESS gne llm 2250 / 5000
+2026-10-15 12:10:34 INCOMPLETE gne llm 1e8bb98b ['quotation_density']
+2026-10-15 12:13:29 PROGRESS gne llm 2300 / 5000
+2026-10-15 12:14:08 INCOMPLETE gne llm 7e1e70ec ['quotation_density']
+2026-10-15 12:16:59 INCOMPLETE gne llm 59f6b44b ['quotation_density']
+2026-10-15 12:17:29 PROGRESS gne llm 2350 / 5000
+2026-10-15 12:22:40 PROGRESS gne llm 2400 / 5000
+2026-10-15 12:28:56 PROGRESS gne llm 2450 / 5000
+2026-10-15 12:29:35 INCOMPLETE gne llm 53d960f9 ['quotation_density']
+2026-10-15 12:32:13 INCOMPLETE gne llm 97b007ad ['quotation_density']
+2026-10-15 12:34:08 INCOMPLETE gne llm 16e3e65c ['quotation_density']
+2026-10-15 12:35:12 INCOMPLETE gne llm cebcdb70 ['quotation_density']
+2026-10-15 12:36:44 PROGRESS gne llm 2500 / 5000
+2026-10-15 12:40:39 INCOMPLETE gne llm 5f2a5129 ['quotation_density']
+2026-10-15 12:44:27 PROGRESS gne llm 2550 / 5000
+2026-10-15 12:45:56 INCOMPLETE gne llm 9a83db44 ['quotation_density']
+2026-10-15 12:51:59 PROGRESS gne llm 2600 / 5000
+2026-10-15 12:53:50 INCOMPLETE gne llm 01d923a9 ['quotation_density']
+2026-10-15 12:59:57 PROGRESS gne llm 2650 / 5000
+2026-10-15 13:02:36 INCOMPLETE gne llm 54dadfc5 ['quotation_density']
+2026-10-15 13:03:41 INCOMPLETE gne llm b557d4f0 ['sensational_language']
+2026-10-15 13:04:08 INCOMPLETE gne llm 25786614 ['quotation_density']
+2026-10-15 13:08:58 INCOMPLETE gne llm 486c30aa ['sensational_language']
+2026-10-15 13:08:58 PROGRESS gne llm 2700 / 5000
+2026-10-15 13:11:57 INCOMPLETE gne llm 8edf56f9 ['sensational_language']
+2026-10-15 13:13:38 INCOMPLETE gne llm 630a882b ['quotation_density']
+2026-10-15 13:13:56 INCOMPLETE gne llm 1b526cf6 ['quotation_density']
+2026-10-15 13:15:20 INCOMPLETE gne llm 47aa2909 ['sensational_language']
+2026-10-15 13:16:38 PROGRESS gne llm 2750 / 5000
+2026-10-15 13:24:14 PROGRESS gne llm 2800 / 5000
+2026-10-15 13:30:42 INCOMPLETE gne llm 2e9f40ee ['quotation_density']
+2026-10-15 13:31:53 PROGRESS gne llm 2850 / 5000
+2026-10-15 13:39:47 PROGRESS gne llm 2900 / 5000
+2026-10-15 13:41:40 INCOMPLETE gne llm b6c48a02 ['sensational_language']
+2026-10-15 13:47:24 INCOMPLETE gne llm f273b483 ['quotation_density']
+2026-10-15 13:47:24 PROGRESS gne llm 2950 / 5000
+2026-10-15 13:54:13 INCOMPLETE gne llm 9540edb7 ['quotation_density']
+2026-10-15 13:54:57 PROGRESS gne llm 3000 / 5000
+2026-10-15 14:01:54 INCOMPLETE gne llm 5bee2baa ['quotation_density']
+2026-10-15 14:02:28 INCOMPLETE gne llm 355ab82d ['quotation_density']
+2026-10-15 14:04:55 PROGRESS gne llm 3050 / 5000
+2026-10-15 14:05:51 INCOMPLETE gne llm 39015a57 ['quotation_density']
+2026-10-15 14:13:41 PROGRESS gne llm 3100 / 5000
+2026-10-15 14:20:46 INCOMPLETE gne llm bbb0e855 ['quotation_density']
+2026-10-15 14:21:57 PROGRESS gne llm 3150 / 5000
+2026-10-15 14:23:21 INCOMPLETE gne llm 9fdf2953 ['quotation_density']
+2026-10-15 14:25:01 INCOMPLETE gne llm f2ab03aa ['quotation_density']
+2026-10-15 14:29:43 PROGRESS gne llm 3200 / 5000
+2026-10-15 14:34:40 INCOMPLETE gne llm 51dc8d74 ['quotation_density']
+2026-10-15 14:39:12 PROGRESS gne llm 3250 / 5000
+2026-10-15 14:43:23 INCOMPLETE gne llm 85863842 ['quotation_density']
+2026-10-15 14:44:49 INCOMPLETE gne llm f8b67189 ['quotation_density']
+2026-10-15 14:47:22 INCOMPLETE gne llm 8be9c7b2 ['quotation_density']
+2026-10-15 14:49:07 PROGRESS gne llm 3300 / 5000
+2026-10-15 14:59:21 PROGRESS gne llm 3350 / 5000
+2026-10-15 15:03:24 INCOMPLETE gne llm 2fa04078 ['quotation_density']
+2026-10-15 15:07:48 INCOMPLETE gne llm 2f602282 ['quotation_density']
+2026-10-15 15:08:57 PROGRESS gne llm 3400 / 5000
+2026-10-15 15:09:36 INCOMPLETE gne llm 689131ac ['quotation_density']
+2026-10-15 15:12:09 INCOMPLETE gne llm 45ffcf38 ['quotation_density']
+2026-10-15 15:18:17 PROGRESS gne llm 3450 / 5000
+2026-10-15 15:24:34 INCOMPLETE gne llm a216a3db ['quotation_density']
+2026-10-15 15:25:58 PROGRESS gne llm 3500 / 5000
+2026-10-15 15:29:29 INCOMPLETE gne llm 06e35d0e ['sensational_language']
+2026-10-15 15:30:55 INCOMPLETE gne llm 09d54ee9 ['sensational_language']
+2026-10-15 15:31:05 INCOMPLETE gne llm ce9fd030 ['quotation_density']
+2026-10-15 15:33:47 PROGRESS gne llm 3550 / 5000
+2026-10-15 15:41:26 PROGRESS gne llm 3600 / 5000
+2026-10-15 15:45:07 INCOMPLETE gne llm 78862ee0 ['quotation_density']
+2026-10-15 15:48:32 INCOMPLETE gne llm 38f0040a ['quotation_density']
+2026-10-15 15:49:19 PROGRESS gne llm 3650 / 5000
+2026-10-15 15:51:02 INCOMPLETE gne llm b03914eb ['quotation_density']
+2026-10-15 15:52:03 INCOMPLETE gne llm a2e66815 ['quotation_density']
+2026-10-15 15:52:24 INCOMPLETE gne llm e9a9a938 ['quotation_density']
+2026-10-15 15:53:39 INCOMPLETE gne llm d7095bbd ['quotation_density']
+2026-10-15 15:57:13 INCOMPLETE gne llm 9ca8a3f7 ['quotation_density']
+2026-10-15 15:57:13 PROGRESS gne llm 3700 / 5000
+2026-10-15 16:04:56 PROGRESS gne llm 3750 / 5000
+2026-10-15 16:09:14 INCOMPLETE gne llm 502660ba ['quotation_density']
+2026-10-15 16:09:53 INCOMPLETE gne llm 402b9d5b ['quotation_density']
+2026-10-15 16:12:46 PROGRESS gne llm 3800 / 5000
+2026-10-15 16:17:35 INCOMPLETE gne llm 36e718e4 ['quotation_density']
+2026-10-15 16:20:28 PROGRESS gne llm 3850 / 5000
+2026-10-15 16:22:31 INCOMPLETE gne llm fbb2201f ['quotation_density']
+2026-10-15 16:23:17 INCOMPLETE gne llm bca6f9f9 ['sensational_language']
+2026-10-15 16:24:05 INCOMPLETE gne llm 71602b38 ['sensational_language']
+2026-10-15 16:28:13 PROGRESS gne llm 3900 / 5000
+2026-10-15 16:34:13 INCOMPLETE gne llm 21b669ea ['quotation_density']
+2026-10-15 16:36:05 PROGRESS gne llm 3950 / 5000
+2026-10-15 16:42:46 INCOMPLETE gne llm ffbcc90a ['quotation_density']
+2026-10-15 16:43:39 PROGRESS gne llm 4000 / 5000
+2026-10-15 16:45:29 INCOMPLETE gne llm 63df4fb5 ['sensational_language']
+2026-10-15 16:51:14 PROGRESS gne llm 4050 / 5000
+2026-10-15 16:53:11 INCOMPLETE gne llm a6bc3ce0 ['quotation_density']
+2026-10-15 16:58:47 PROGRESS gne llm 4100 / 5000
+2026-10-15 16:59:59 INCOMPLETE gne llm fc0f861d ['sensational_language']
+2026-10-15 17:05:51 INCOMPLETE gne llm 4a881dc4 ['quotation_density']
+2026-10-15 17:06:29 PROGRESS gne llm 4150 / 5000
+2026-10-15 17:10:57 INCOMPLETE gne llm f95e36a1 ['quotation_density']
+2026-10-15 17:14:20 PROGRESS gne llm 4200 / 5000
+2026-10-15 17:16:56 INCOMPLETE gne llm a71e3d30 ['quotation_density']
+2026-10-15 17:18:30 INCOMPLETE gne llm edaf5569 ['quotation_density']
+2026-10-15 17:19:56 INCOMPLETE gne llm a906c143 ['quotation_density']
+2026-10-15 17:22:05 PROGRESS gne llm 4250 / 5000
+2026-10-15 17:29:55 PROGRESS gne llm 4300 / 5000
+2026-10-15 17:32:08 INCOMPLETE gne llm fa23e97a ['quotation_density']
+2026-10-15 17:37:44 PROGRESS gne llm 4350 / 5000
+2026-10-15 17:40:08 INCOMPLETE gne llm 2657eb28 ['quotation_density']
+2026-10-15 17:45:35 PROGRESS gne llm 4400 / 5000
+2026-10-15 17:48:19 INCOMPLETE gne llm dd6fcb52 ['sensational_language']
+2026-10-15 17:49:41 INCOMPLETE gne llm 7eb34bdb ['quotation_density']
+2026-10-15 17:50:28 INCOMPLETE gne llm aa52b921 ['quotation_density']
+2026-10-15 17:53:12 INCOMPLETE gne llm 11a7e26e ['quotation_density']
+2026-10-15 17:53:37 PROGRESS gne llm 4450 / 5000
+2026-10-15 17:57:37 INCOMPLETE gne llm 2bdc7ea3 ['quotation_density']
+2026-10-15 18:01:19 PROGRESS gne llm 4500 / 5000
+2026-10-15 18:02:10 INCOMPLETE gne llm f3f538c2 ['quotation_density']
+2026-10-15 18:08:07 INCOMPLETE gne llm a92b3832 ['quotation_density']
+2026-10-15 18:09:15 PROGRESS gne llm 4550 / 5000
+2026-10-15 18:17:11 PROGRESS gne llm 4600 / 5000
+2026-10-15 18:18:56 INCOMPLETE gne llm 3bd51ca2 ['quotation_density']
+2026-10-15 18:20:46 INCOMPLETE gne llm 9ac262f6 ['sensational_language']
+2026-10-15 18:22:02 INCOMPLETE gne llm c3d5a32f ['quotation_density']
+2026-10-15 18:22:45 INCOMPLETE gne llm 339a66b8 ['sensational_language']
+2026-10-15 18:24:54 PROGRESS gne llm 4650 / 5000
+2026-10-15 18:27:45 INCOMPLETE gne llm 087633e9 ['sensational_language']
+2026-10-15 18:32:37 PROGRESS gne llm 4700 / 5000
+2026-10-15 18:32:48 INCOMPLETE gne llm 1c6a801d ['quotation_density']
+2026-10-15 18:39:30 INCOMPLETE gne llm 1aa3246d ['quotation_density']
+2026-10-15 18:40:16 PROGRESS gne llm 4750 / 5000
+2026-10-15 18:44:51 INCOMPLETE gne llm 31bb1718 ['sensational_language']
+2026-10-15 18:48:08 PROGRESS gne llm 4800 / 5000
+2026-10-15 18:53:12 INCOMPLETE gne llm baafb1f9 ['quotation_density']
+2026-10-15 18:55:55 PROGRESS gne llm 4850 / 5000
+2026-10-15 19:03:28 INCOMPLETE gne llm 7b6bb67b ['quotation_density']
+2026-10-15 19:03:47 PROGRESS gne llm 4900 / 5000
+2026-10-15 19:06:13 INCOMPLETE gne llm 319d87d4 ['quotation_density']
+2026-10-15 19:11:37 PROGRESS gne llm 4950 / 5000
+2026-10-15 19:14:38 INCOMPLETE gne llm 9e66c80c ['quotation_density']
+2026-10-15 19:16:05 INCOMPLETE gne llm c27be5a0 ['quotation_density']
+2026-10-15 19:19:26 PROGRESS gne llm 5000 / 5000
+2026-10-15 19:19:27 AUDIT FINAL gne llm complete 4852 / 5000 remaining 148
+2026-10-15 19:19:27 STOP RuntimeError('gne/llm has 148 incomplete records; safe to rerun same command') — caches preserved; inspect log and rerun after correction

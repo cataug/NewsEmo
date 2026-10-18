@@ -1,0 +1,2 @@
+n_train,n_val,n_test,training_majority,train_majority_fraction,test_majority_fraction,test_evaluable,constant_baseline_MAE,constant_baseline_accuracy,best_existing_model_MAE,conclusion
+3500,750,750,medium,0.9977142857142857,0.9973333333333333,750,0.0026666666666666666,0.9973333333333333,0.0045881188013611,non-informative severe label imbalance; descriptive/control only

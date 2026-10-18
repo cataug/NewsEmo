@@ -1,0 +1,21 @@
+15:21:31 LOAD cliptext /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+15:21:36 EXTRACT cliptext mirage 32 / 15000
+15:21:38 EXTRACT cliptext mirage 832 / 15000
+15:21:40 EXTRACT cliptext mirage 1632 / 15000
+15:21:43 EXTRACT cliptext mirage 2432 / 15000
+15:21:45 EXTRACT cliptext mirage 3232 / 15000
+15:21:47 EXTRACT cliptext mirage 4032 / 15000
+15:21:50 EXTRACT cliptext mirage 4832 / 15000
+15:21:52 EXTRACT cliptext mirage 5632 / 15000
+15:21:55 EXTRACT cliptext mirage 6432 / 15000
+15:21:58 EXTRACT cliptext mirage 7232 / 15000
+15:22:01 EXTRACT cliptext mirage 8032 / 15000
+15:22:04 EXTRACT cliptext mirage 8832 / 15000
+15:22:07 EXTRACT cliptext mirage 9632 / 15000
+15:22:09 EXTRACT cliptext mirage 10432 / 15000
+15:22:11 EXTRACT cliptext mirage 11232 / 15000
+15:22:14 EXTRACT cliptext mirage 12032 / 15000
+15:22:17 EXTRACT cliptext mirage 12832 / 15000
+15:22:19 EXTRACT cliptext mirage 13632 / 15000
+15:22:21 EXTRACT cliptext mirage 14432 / 15000
+15:22:23 COMPLETE cliptext mirage

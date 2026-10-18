@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    "baseline_full_text_lr_11_s43",
+    "baseline_llm_lr_7_s43",
+    "baseline_llm_rf_8_s43",
+    "baseline_majority_majority_0_s43",
+    "baseline_mini_llm_rf_10_s43",
+    "baseline_minilm_lr_5_s43",
+    "baseline_minilm_mlp_6_s43",
+    "baseline_stats_rf_4_s43",
+    "baseline_tf_llm_rf_9_s43",
+    "baseline_tfidf_lr_1_s43",
+    "baseline_tfidf_rf_3_s43",
+    "baseline_tfidf_svm_2_s43"
+  ],
+  "weights": [
+    0.02469230442738993,
+    0.08604403595449799,
+    0.0836316584649634,
+    0.03196075692776596,
+    0.0,
+    0.07963171657218317,
+    0.15898775275758828,
+    0.11735907495618618,
+    0.03154595615485126,
+    0.08224600799402673,
+    0.1431466028340693,
+    0.16075413295647784
+  ],
+  "val_objectives": [
+    -0.22922197227983396,
+    -0.0,
+    0.23492063492063492,
+    0.9166666666666666
+  ],
+  "test_metrics": {
+    "accuracy": 0.24666666666666667,
+    "macro_f1": 0.18914231186261463,
+    "balanced_accuracy": 0.18956845931987842
+  },
+  "evaluations_budget": 264
+}

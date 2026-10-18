@@ -1,0 +1,83 @@
+{
+  "tables": [
+    {
+      "file": "ablation.csv",
+      "rows": 130,
+      "cols": "suite,dataset,variant,feature,model,seed,accuracy,macro_f1,balanced_accuracy,val_macro_f1,worst_class_recall,source_f1_gap,worst_source_f1,status",
+      "status": "present"
+    },
+    {
+      "file": "baseline.csv",
+      "rows": 190,
+      "cols": "suite,dataset,variant,feature,model,seed,accuracy,macro_f1,balanced_accuracy,val_macro_f1,worst_class_recall,source_f1_gap,worst_source_f1,status",
+      "status": "present"
+    },
+    {
+      "file": "paired_bootstrap_comparisons.csv",
+      "rows": 15,
+      "cols": "dataset,seed,proposed,control,delta_macro_f1,ci95_low,ci95_high,bootstrap_p_two_sided,bh_q",
+      "status": "present"
+    },
+    {
+      "file": "robustness.csv",
+      "rows": 85,
+      "cols": "dataset,seed,method,perturbation,n,accuracy,macro_f1,balanced_accuracy",
+      "status": "present"
+    },
+    {
+      "file": "vlm.csv",
+      "rows": 20,
+      "cols": "suite,dataset,variant,feature,model,seed,accuracy,macro_f1,balanced_accuracy,val_macro_f1,worst_class_recall,source_f1_gap,worst_source_f1,status",
+      "status": "present"
+    },
+    {
+      "file": "intensity.csv",
+      "rows": 20,
+      "cols": "feature,seed,status,mae,rounded_accuracy",
+      "status": "present"
+    },
+    {
+      "file": "pareto.csv",
+      "rows": 27,
+      "cols": "dataset,method,seed,candidates,eval_budget,non_dominated,val_hypervolume_est,val_macro_f1,active_features,status,accuracy,macro_f1,balanced_accuracy",
+      "status": "present"
+    },
+    {
+      "file": "external.csv",
+      "rows": 20,
+      "cols": "dataset,task,method,n,auc,ap,note,token_set_f1",
+      "status": "present"
+    },
+    {
+      "file": "semeval_zeroshot.csv",
+      "rows": 14,
+      "cols": "dataset,model,emotion,n,mae,spearman,pearson",
+      "status": "present"
+    },
+    {
+      "file": "vad.csv",
+      "rows": 60,
+      "cols": "feature,target,seed,status,mae,rmse,pearson,spearman",
+      "status": "present"
+    },
+    {
+      "file": "source_holdout.csv",
+      "rows": 120,
+      "cols": "dataset,source,feature,seed,status,accuracy,macro_f1,balanced_accuracy,val_macro_f1,worst_class_recall",
+      "status": "present"
+    },
+    {
+      "file": "bootstrap_ci.csv",
+      "rows": 38,
+      "cols": "dataset,model,macro_f1,ci_low,ci_high",
+      "status": "present"
+    },
+    {
+      "file": "stress_controls.csv",
+      "rows": 6,
+      "cols": "dataset,control,n,mean_original_similarity,mean_shuffled_similarity,fraction_original_higher,note,mean_abs_rater_difference",
+      "status": "present"
+    }
+  ],
+  "timestamp": "2026-10-17 19:18:44"
+}

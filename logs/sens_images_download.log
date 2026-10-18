@@ -1,0 +1,11 @@
+[ANNOTATIONS] full_dev.json: 956 rows
+[ANNOTATIONS] full_test.json: 8620 rows
+[ANNOTATIONS] strict_dev.json: 454 rows
+[ANNOTATIONS] strict_test.json: 4088 rows
+
+Unique required images: 9576
+
+Already present: 0
+Still needed:   9576
+
+Reading VisualNews TAR stream...

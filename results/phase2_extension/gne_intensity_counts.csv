@@ -1,0 +1,10 @@
+split,intensity,n
+test,high,1
+test,low,1
+test,medium,748
+train,,2
+train,high,3
+train,low,2
+train,medium,3492
+train,weak,1
+val,medium,750

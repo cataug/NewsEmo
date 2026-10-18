@@ -1,0 +1,9 @@
+{
+  "expected": 2510,
+  "complete": 2510,
+  "recovered_now": 121,
+  "unresolved": {},
+  "inference_calls": 125,
+  "backup": "/home/tahiti/NewsEmo/cache/llm/inews_llm.jsonl.backup_field_repair_20261015_091720",
+  "repair_protocol": "targeted_numeric_and_text_v3"
+}

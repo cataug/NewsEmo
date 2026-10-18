@@ -1,0 +1,42 @@
+{
+  "dataset": "pitehu/inews_public",
+  "target": "Human-annotated discrete emotion",
+  "input_columns": [
+    "Message",
+    "Link.Text"
+  ],
+  "excluded_columns": [
+    "Post_ID",
+    "Annotator_ID",
+    "Discrete",
+    "V",
+    "A",
+    "D",
+    "Page.Name",
+    "Description",
+    "Relevance",
+    "Source",
+    "User_Prompt"
+  ],
+  "classes": [
+    "anger",
+    "contempt",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "other (please specify in the box below)",
+    "sad",
+    "surprise"
+  ],
+  "train_annotations": 7350,
+  "dev_annotations": 155,
+  "test_annotations": 498,
+  "train_posts": 2028,
+  "dev_posts": 128,
+  "test_posts": 354,
+  "test_overlap_posts": 0,
+  "train_dev_overlap_posts_removed": 0,
+  "multi_annotated_test_posts": 119,
+  "within_post_majority_fraction": 0.6449579831932774
+}

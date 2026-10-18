@@ -1,0 +1,150 @@
+========================================================================
+INEWS TARGETED FIELD RECOVERY
+Expected: 2510
+Already complete: 2389
+Remaining: 121
+Bad JSONL lines: 0
+Missing fields: {'uncertainty': 95, 'quotation_density': 29, 'urgency': 3, 'causal_explicitness': 3, 'attribution_strength': 3, 'sensational_language': 3, 'frame': 3, 'stance': 3, 'focus': 3, 'evidence': 3}
+[BACKUP] /home/tahiti/NewsEmo/cache/llm/inews_llm.jsonl.backup_field_repair_20261015_091720
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.00it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.05it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+[FIXED] 1/121 Phase1_1011 recovered=1
+[FIXED] 2/121 Phase1_1040 recovered=2
+[FIXED] 3/121 Phase1_1047 recovered=3
+[FIXED] 4/121 Phase1_106 recovered=4
+[FIXED] 5/121 Phase1_1095 recovered=5
+[FIXED] 6/121 Phase1_1149 recovered=6
+[FIXED] 7/121 Phase1_1176 recovered=7
+[FIXED] 8/121 Phase1_169 recovered=8
+[FIXED] 9/121 Phase1_174 recovered=9
+[FIXED] 10/121 Phase1_202 recovered=10
+[FIXED] 11/121 Phase1_208 recovered=11
+[FIXED] 12/121 Phase1_213 recovered=12
+[FIXED] 13/121 Phase1_232 recovered=13
+[FIXED] 14/121 Phase1_249 recovered=14
+[FIXED] 15/121 Phase1_273 recovered=15
+[FIXED] 16/121 Phase1_380 recovered=16
+[FIXED] 17/121 Phase1_396 recovered=17
+[FIXED] 18/121 Phase1_402 recovered=18
+[FIXED] 19/121 Phase1_426 recovered=19
+[FIXED] 20/121 Phase1_435 recovered=20
+[PROGRESS] 20/121 recovered=20 calls=22
+[FIXED] 21/121 Phase1_489 recovered=21
+[FIXED] 22/121 Phase1_633 recovered=22
+[FIXED] 23/121 Phase1_674 recovered=23
+[FIXED] 24/121 Phase1_676 recovered=24
+[FIXED] 25/121 Phase1_737 recovered=25
+[FIXED] 26/121 Phase1_901 recovered=26
+[FIXED] 27/121 Phase1_914 recovered=27
+[FIXED] 28/121 Phase1_977 recovered=28
+[FIXED] 29/121 Phase1_980 recovered=29
+[FIXED] 30/121 Phase1_982 recovered=30
+[FIXED] 31/121 Phase2_1006 recovered=31
+[FIXED] 32/121 Phase2_1007 recovered=32
+[FIXED] 33/121 Phase2_1015 recovered=33
+[FIXED] 34/121 Phase2_116 recovered=34
+[FIXED] 35/121 Phase2_119 recovered=35
+[FIXED] 36/121 Phase2_143 recovered=36
+[FIXED] 37/121 Phase2_155 recovered=37
+[FIXED] 38/121 Phase2_165 recovered=38
+[FIXED] 39/121 Phase2_181 recovered=39
+[FIXED] 40/121 Phase2_185 recovered=40
+[PROGRESS] 40/121 recovered=40 calls=42
+[FIXED] 41/121 Phase2_192 recovered=41
+[FIXED] 42/121 Phase2_202 recovered=42
+[FIXED] 43/121 Phase2_290 recovered=43
+[FIXED] 44/121 Phase2_351 recovered=44
+[FIXED] 45/121 Phase2_365 recovered=45
+[FIXED] 46/121 Phase2_366 recovered=46
+[FIXED] 47/121 Phase2_391 recovered=47
+[FIXED] 48/121 Phase2_398 recovered=48
+[FIXED] 49/121 Phase2_41 recovered=49
+[FIXED] 50/121 Phase2_431 recovered=50
+[FIXED] 51/121 Phase2_447 recovered=51
+[FIXED] 52/121 Phase2_524 recovered=52
+[FIXED] 53/121 Phase2_53 recovered=53
+[FIXED] 54/121 Phase2_530 recovered=54
+[FIXED] 55/121 Phase2_535 recovered=55
+[FIXED] 56/121 Phase2_583 recovered=56
+[FIXED] 57/121 Phase2_596 recovered=57
+[FIXED] 58/121 Phase2_61 recovered=58
+[FIXED] 59/121 Phase2_624 recovered=59
+[FIXED] 60/121 Phase2_625 recovered=60
+[PROGRESS] 60/121 recovered=60 calls=62
+[FIXED] 61/121 Phase2_633 recovered=61
+[FIXED] 62/121 Phase2_637 recovered=62
+[FIXED] 63/121 Phase2_645 recovered=63
+[FIXED] 64/121 Phase2_654 recovered=64
+[FIXED] 65/121 Phase2_689 recovered=65
+[FIXED] 66/121 Phase2_704 recovered=66
+[FIXED] 67/121 Phase2_755 recovered=67
+[FIXED] 68/121 Phase2_763 recovered=68
+[FIXED] 69/121 Phase2_809 recovered=69
+[FIXED] 70/121 Phase2_841 recovered=70
+[FIXED] 71/121 Phase2_842 recovered=71
+[FIXED] 72/121 Phase2_871 recovered=72
+[FIXED] 73/121 Phase2_889 recovered=73
+[FIXED] 74/121 Phase2_906 recovered=74
+[FIXED] 75/121 Phase2_931 recovered=75
+[FIXED] 76/121 Phase2_948 recovered=76
+[FIXED] 77/121 Phase2_969 recovered=77
+[FIXED] 78/121 Phase2_982 recovered=78
+[FIXED] 79/121 Phase3_136 recovered=79
+[FIXED] 80/121 Phase3_183 recovered=80
+[PROGRESS] 80/121 recovered=80 calls=82
+[FIXED] 81/121 Phase3_220 recovered=81
+[FIXED] 82/121 Phase3_221 recovered=82
+[FIXED] 83/121 Phase3_261 recovered=83
+[FIXED] 84/121 Phase3_265 recovered=84
+[FIXED] 85/121 Phase3_300 recovered=85
+[FIXED] 86/121 Phase3_311 recovered=86
+[FIXED] 87/121 Phase3_315 recovered=87
+[FIXED] 88/121 Phase3_328 recovered=88
+[FIXED] 89/121 Phase3_333 recovered=89
+[FIXED] 90/121 Phase3_336 recovered=90
+[FIXED] 91/121 Phase3_356 recovered=91
+[FIXED] 92/121 Phase3_363 recovered=92
+[FIXED] 93/121 Phase3_381 recovered=93
+[FIXED] 94/121 Phase3_417 recovered=94
+[FIXED] 95/121 Phase3_427 recovered=95
+[FIXED] 96/121 Phase3_429 recovered=96
+[FIXED] 97/121 Phase3_436 recovered=97
+[FIXED] 98/121 Phase3_459 recovered=98
+[FIXED] 99/121 Phase3_47 recovered=99
+[FIXED] 100/121 Phase3_515 recovered=100
+[PROGRESS] 100/121 recovered=100 calls=102
+[FIXED] 101/121 Phase3_557 recovered=101
+[FIXED] 102/121 Phase3_56 recovered=102
+[FIXED] 103/121 Phase3_588 recovered=103
+[FIXED] 104/121 Phase3_593 recovered=104
+[FIXED] 105/121 Phase3_617 recovered=105
+[FIXED] 106/121 Phase3_626 recovered=106
+[FIXED] 107/121 Phase3_677 recovered=107
+[FIXED] 108/121 Phase3_680 recovered=108
+[FIXED] 109/121 Phase3_726 recovered=109
+[FIXED] 110/121 Phase3_73 recovered=110
+[FIXED] 111/121 Phase3_755 recovered=111
+[FIXED] 112/121 Phase3_756 recovered=112
+[FIXED] 113/121 Phase3_765 recovered=113
+[FIXED] 114/121 Phase3_794 recovered=114
+[FIXED] 115/121 Phase3_807 recovered=115
+[FIXED] 116/121 Phase3_811 recovered=116
+[FIXED] 117/121 Phase3_816 recovered=117
+[FIXED] 118/121 Phase3_845 recovered=118
+[FIXED] 119/121 Phase3_848 recovered=119
+[FIXED] 120/121 Phase3_86 recovered=120
+[PROGRESS] 120/121 recovered=120 calls=124
+[FIXED] 121/121 Phase3_98 recovered=121
+
+========== FINAL AUDIT ==========
+Complete: 2510 / 2510
+Recovered now: 121
+Still missing: 0
+Qwen calls: 125
+Report: /home/tahiti/NewsEmo/reports/inews_field_recovery.json
+[OK] ALL INEWS FEATURES COMPLETE

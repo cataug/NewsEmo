@@ -1,0 +1,114 @@
+2026-10-17 20:17:27 PREFLIGHT iNews 2510 GNE 5000
+2026-10-17 20:17:27 STAGE START inews
+2026-10-17 20:17:27 START INEWS individual-rater and agreement analysis
+2026-10-17 20:17:33 SAVED /home/tahiti/NewsEmo/results/phase2_extension/inews_rater_agreement.csv 3
+2026-10-17 20:17:33 SAVED /home/tahiti/NewsEmo/results/phase2_extension/inews_raters.csv 291
+2026-10-17 20:17:33 SAVED /home/tahiti/NewsEmo/results/phase2_extension/inews_individual_vote_distribution.csv 27
+2026-10-17 20:17:35 SAVED /home/tahiti/NewsEmo/results/phase2_extension/inews_post_vote_consensus.csv 2510
+2026-10-17 20:17:35 SAVED /home/tahiti/NewsEmo/results/phase2_extension/inews_rater_pair_kappa.csv 24
+2026-10-17 20:17:36 SAVED /home/tahiti/NewsEmo/results/phase2_extension/inews_human_level_model_scores.csv 60
+2026-10-17 20:17:36 DONE INEWS
+2026-10-17 20:17:36 STAGE DONE inews
+2026-10-17 20:17:36 STAGE START gne_intensity
+2026-10-17 20:17:36 SAVED /home/tahiti/NewsEmo/results/phase2_extension/gne_intensity_degeneracy.csv 1
+2026-10-17 20:17:36 SAVED /home/tahiti/NewsEmo/results/phase2_extension/gne_intensity_counts.csv 9
+2026-10-17 20:17:36 GNE INTENSITY majority medium test prevalence 0.9973333333333333
+2026-10-17 20:17:36 STAGE DONE gne_intensity
+2026-10-17 20:17:36 STAGE START gne_roles
+2026-10-17 20:17:36 START GNE span-level roles
+2026-10-17 20:17:38 SAVED /home/tahiti/NewsEmo/results/phase2_extension/gne_gold_annotation_alignment_audit.csv 4
+2026-10-17 20:17:38 GNE ROLE EXTRACTION 0 cached 5000 pending
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.42s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.30s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.21s/it]
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/tahiti/Malashin_Projects/.venv_a100/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:612: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+2026-10-17 20:17:53 GNE ROLES 1 / 5000 total 1 ungrounded 0
+2026-10-17 20:17:57 GNE ROLES 2 / 5000 total 2 ungrounded 0
+2026-10-17 20:18:01 GNE ROLES 3 / 5000 total 3 ungrounded 0
+2026-10-17 20:24:55 GNE ROLES 100 / 5000 total 100 ungrounded 0
+2026-10-17 20:31:57 GNE ROLES 200 / 5000 total 200 ungrounded 0
+2026-10-17 20:39:09 GNE ROLES 300 / 5000 total 300 ungrounded 0
+2026-10-17 20:46:12 GNE ROLES 400 / 5000 total 400 ungrounded 0
+2026-10-17 20:53:27 GNE ROLES 500 / 5000 total 500 ungrounded 0
+2026-10-17 21:00:36 GNE ROLES 600 / 5000 total 600 ungrounded 0
+2026-10-17 21:07:57 GNE ROLES 700 / 5000 total 700 ungrounded 0
+2026-10-17 21:15:15 GNE ROLES 800 / 5000 total 800 ungrounded 0
+2026-10-17 21:22:19 GNE ROLES 900 / 5000 total 900 ungrounded 0
+2026-10-17 21:29:35 GNE ROLES 1000 / 5000 total 1000 ungrounded 0
+2026-10-17 21:36:40 GNE ROLES 1100 / 5000 total 1100 ungrounded 0
+2026-10-17 21:43:44 GNE ROLES 1200 / 5000 total 1200 ungrounded 0
+2026-10-17 21:50:54 GNE ROLES 1300 / 5000 total 1300 ungrounded 0
+2026-10-17 21:58:16 GNE ROLES 1400 / 5000 total 1400 ungrounded 0
+2026-10-17 22:05:25 GNE ROLES 1500 / 5000 total 1500 ungrounded 0
+2026-10-17 22:11:52 GNE ROLES 1600 / 5000 total 1600 ungrounded 0
+2026-10-17 22:17:50 GNE ROLES 1700 / 5000 total 1700 ungrounded 0
+2026-10-17 22:24:15 GNE ROLES 1800 / 5000 total 1800 ungrounded 0
+2026-10-17 22:30:13 GNE ROLES 1900 / 5000 total 1900 ungrounded 0
+2026-10-17 22:35:37 GNE ROLES 2000 / 5000 total 2000 ungrounded 0
+2026-10-17 22:41:11 GNE ROLES 2100 / 5000 total 2100 ungrounded 0
+2026-10-17 22:46:28 GNE ROLES 2200 / 5000 total 2200 ungrounded 0
+2026-10-17 22:51:38 GNE ROLES 2300 / 5000 total 2300 ungrounded 0
+2026-10-17 22:57:20 GNE ROLES 2400 / 5000 total 2400 ungrounded 0
+2026-10-17 23:03:25 GNE ROLES 2500 / 5000 total 2500 ungrounded 0
+2026-10-17 23:09:19 GNE ROLES 2600 / 5000 total 2600 ungrounded 0
+2026-10-17 23:15:28 GNE ROLES 2700 / 5000 total 2700 ungrounded 0
+2026-10-17 23:21:32 GNE ROLES 2800 / 5000 total 2800 ungrounded 0
+2026-10-17 23:27:49 GNE ROLES 2900 / 5000 total 2900 ungrounded 0
+2026-10-17 23:34:25 GNE ROLES 3000 / 5000 total 3000 ungrounded 0
+2026-10-17 23:40:38 GNE ROLES 3100 / 5000 total 3100 ungrounded 0
+2026-10-17 23:46:45 GNE ROLES 3200 / 5000 total 3200 ungrounded 0
+2026-10-17 23:53:01 GNE ROLES 3300 / 5000 total 3300 ungrounded 0
+2026-10-17 23:59:16 GNE ROLES 3400 / 5000 total 3400 ungrounded 0
+2026-10-18 00:05:40 GNE ROLES 3500 / 5000 total 3500 ungrounded 0
+2026-10-18 00:11:53 GNE ROLES 3600 / 5000 total 3600 ungrounded 0
+2026-10-18 00:18:25 GNE ROLES 3700 / 5000 total 3700 ungrounded 0
+2026-10-18 00:25:06 GNE ROLES 3800 / 5000 total 3800 ungrounded 0
+2026-10-18 00:32:13 GNE ROLES 3900 / 5000 total 3900 ungrounded 0
+2026-10-18 00:39:14 GNE ROLES 4000 / 5000 total 4000 ungrounded 0
+2026-10-18 00:46:11 GNE ROLES 4100 / 5000 total 4100 ungrounded 0
+2026-10-18 00:53:09 GNE ROLES 4200 / 5000 total 4200 ungrounded 0
+2026-10-18 01:00:20 GNE ROLES 4300 / 5000 total 4300 ungrounded 0
+2026-10-18 01:07:21 GNE ROLES 4400 / 5000 total 4400 ungrounded 0
+2026-10-18 01:14:18 GNE ROLES 4500 / 5000 total 4500 ungrounded 0
+2026-10-18 01:21:18 GNE ROLES 4600 / 5000 total 4600 ungrounded 0
+2026-10-18 01:28:23 GNE ROLES 4700 / 5000 total 4700 ungrounded 0
+2026-10-18 01:35:25 GNE ROLES 4800 / 5000 total 4800 ungrounded 0
+2026-10-18 01:42:35 GNE ROLES 4900 / 5000 total 4900 ungrounded 0
+2026-10-18 01:49:44 GNE ROLES 5000 / 5000 total 5000 ungrounded 0
+2026-10-18 01:49:48 SAVED /home/tahiti/NewsEmo/results/phase2_extension/gne_role_per_example.csv 20000
+2026-10-18 01:49:48 SAVED /home/tahiti/NewsEmo/results/phase2_extension/gne_role_metrics.csv 12
+2026-10-18 01:49:48 SAVED /home/tahiti/NewsEmo/results/phase2_extension/gne_role_status.csv 31
+2026-10-18 01:49:48 DONE GNE roles
+2026-10-18 01:49:48 STAGE DONE gne_roles
+2026-10-18 01:49:48 STAGE START pareto
+2026-10-18 01:49:48 SAVED /home/tahiti/NewsEmo/results/phase2_extension/pareto_hypervolume_exact.csv 27
+2026-10-18 01:49:48 SAVED /home/tahiti/NewsEmo/results/phase2_extension/pareto_hypervolume_summary.csv 9
+2026-10-18 01:49:48 PARETO exact HV: original reference and explicitly marked relaxed sensitivity check; legacy files untouched
+2026-10-18 01:49:48 STAGE DONE pareto
+2026-10-18 01:49:48 STAGE START statistics
+2026-10-18 01:49:48 START STATISTICS; no model retraining
+2026-10-18 01:49:50 STAT CI 25 new rows
+2026-10-18 01:49:53 STAT CI 50 new rows
+2026-10-18 01:50:00 STAT CI 75 new rows
+2026-10-18 01:50:15 SAVED /home/tahiti/NewsEmo/results/phase2_extension/new_nonoverlapping_bootstrap_ci.csv 98
+2026-10-18 01:50:15 SAVED /home/tahiti/NewsEmo/results/phase2_extension/seed_prediction_fingerprints.csv 340
+2026-10-18 01:50:16 STAT PAIRS inews 19
+2026-10-18 01:50:18 STAT PAIRS gne 38
+2026-10-18 01:50:23 STAT PAIRS mirage 64
+2026-10-18 01:50:23 SAVED /home/tahiti/NewsEmo/results/phase2_extension/paired_randomization_BH_exploratory.csv 64
+2026-10-18 01:50:23 DONE STATISTICS 98 new CIs 64 new pairwise tests
+2026-10-18 01:50:23 STAGE DONE statistics
+2026-10-18 01:50:23 STAGE START figures
+2026-10-18 01:50:25 NEW FIGURES /home/tahiti/NewsEmo/results/phase2_extension/figures 4 PDF + 4 PNG
+2026-10-18 01:50:25 STAGE DONE figures
+2026-10-18 01:50:26 RESULT {'file': 'inews_rater_agreement.csv', 'exists': True, 'rows': 3}
+2026-10-18 01:50:26 RESULT {'file': 'inews_human_level_model_scores.csv', 'exists': True, 'rows': 60}
+2026-10-18 01:50:26 RESULT {'file': 'gne_role_metrics.csv', 'exists': True, 'rows': 12}
+2026-10-18 01:50:26 RESULT {'file': 'gne_intensity_degeneracy.csv', 'exists': True, 'rows': 1}
+2026-10-18 01:50:26 RESULT {'file': 'pareto_hypervolume_exact.csv', 'exists': True, 'rows': 27}
+2026-10-18 01:50:26 RESULT {'file': 'new_nonoverlapping_bootstrap_ci.csv', 'exists': True, 'rows': 98}
+2026-10-18 01:50:26 RESULT {'file': 'paired_randomization_BH_exploratory.csv', 'exists': True, 'rows': 64}
+2026-10-18 01:50:26 SAVED /home/tahiti/NewsEmo/results/phase2_extension/extension_progress.csv 7

@@ -1,0 +1,8 @@
+file,exists,rows
+inews_rater_agreement.csv,True,3
+inews_human_level_model_scores.csv,True,60
+gne_role_metrics.csv,True,12
+gne_intensity_degeneracy.csv,True,1
+pareto_hypervolume_exact.csv,True,27
+new_nonoverlapping_bootstrap_ci.csv,True,98
+paired_randomization_BH_exploratory.csv,True,64

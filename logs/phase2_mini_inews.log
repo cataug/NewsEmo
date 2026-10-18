@@ -1,0 +1,7 @@
+15:19:55 LOAD minilm /home/tahiti/NewsEmo/models/minilm_l6_v2 cuda
+15:19:58 EXTRACT minilm inews 24 / 2510
+15:20:00 EXTRACT minilm inews 624 / 2510
+15:20:02 EXTRACT minilm inews 1224 / 2510
+15:20:05 EXTRACT minilm inews 1824 / 2510
+15:20:07 EXTRACT minilm inews 2424 / 2510
+15:20:07 COMPLETE minilm inews

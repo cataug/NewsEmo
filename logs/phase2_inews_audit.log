@@ -1,0 +1,60 @@
+
+===========================================================================
+NEWS EMOTION — PHASE 2 / INEWS CACHE AUDIT
+===========================================================================
+Expected: 2510
+Cached unique IDs: 2502
+Structurally valid: 2244
+Missing or invalid: 266
+Coverage: 89.40%
+Invalid JSONL lines: 0
+Duplicate cached IDs: 0
+Missing IDs: ['Phase1_1004', 'Phase1_1011', 'Phase1_1017', 'Phase1_1040', 'Phase1_1042', 'Phase1_1047', 'Phase1_106', 'Phase1_1083', 'Phase1_1095', 'Phase1_1116', 'Phase1_114', 'Phase1_1149', 'Phase1_1158', 'Phase1_1159', 'Phase1_1160', 'Phase1_1164', 'Phase1_1176', 'Phase1_1194', 'Phase1_169', 'Phase1_174', 'Phase1_186', 'Phase1_194', 'Phase1_202', 'Phase1_203', 'Phase1_208', 'Phase1_213', 'Phase1_219', 'Phase1_223', 'Phase1_227', 'Phase1_232']
+Invalid feature IDs: ['Phase1_1004', 'Phase1_1011', 'Phase1_1017', 'Phase1_1040', 'Phase1_1042', 'Phase1_1047', 'Phase1_106', 'Phase1_1083', 'Phase1_1095', 'Phase1_1116', 'Phase1_114', 'Phase1_1149', 'Phase1_1159', 'Phase1_1160', 'Phase1_1164', 'Phase1_1176', 'Phase1_1194', 'Phase1_169', 'Phase1_174', 'Phase1_186', 'Phase1_194', 'Phase1_202', 'Phase1_203', 'Phase1_208', 'Phase1_213', 'Phase1_219', 'Phase1_223', 'Phase1_227', 'Phase1_232', 'Phase1_249']
+
+========== FEATURE COMPLETENESS ==========
+uncertainty                 2305/2502
+urgency                     2502/2502
+causal_explicitness         2502/2502
+attribution_strength        2502/2502
+quotation_density           2441/2502
+sensational_language        2501/2502
+frame                       2502/2502
+stance                      2502/2502
+focus                       2502/2502
+evidence                    2502/2502
+
+========== NUMERICAL DISTRIBUTIONS ==========
+uncertainty                mean=0.2294 std=0.2382 min=0.0000 max=0.9000
+urgency                    mean=0.4916 std=0.3024 min=0.0000 max=1.0000
+causal_explicitness        mean=0.2477 std=0.2511 min=0.0000 max=1.0000
+attribution_strength       mean=0.6984 std=0.2541 min=0.0000 max=1.0000
+quotation_density          mean=0.2721 std=0.2501 min=0.0000 max=1.0000
+sensational_language       mean=0.4810 std=0.3089 min=0.0000 max=1.0000
+
+========== SEMANTIC DISTRIBUTIONS ==========
+frame unique= 672 top= [('entertainment', 207), ('crime', 89), ('personal experience', 86), ('sports', 77), ('political', 69), ('tragedy', 69), ('incident report', 61), ('conflict', 39)]
+stance unique= 67 top= [('neutral', 1480), ('critical', 166), ('informative', 142), ('positive', 132), ('subjective', 65), ('negative', 54), ('supportive', 49), ('objective', 29)]
+focus unique= 2030 top= [('legal consequences', 12), ('legal action', 12), ('incident outcome', 10), ('incident description', 8), ('legal proceedings', 7), ('celebrity news', 7), ('search and rescue', 6), ('missing person', 6)]
+
+========== EVIDENCE CHECK ==========
+Nonempty evidence: 2244
+Exact substring matches: 2123
+Exact match rate: 94.61%
+
+========== EXAMPLE RECORDS ==========
+
+UID: Phase1_100
+TEXT: nan The experts: travel agents on 20 ways to book a sustainable and sensational summer holiday
+FEATURES: {"frame": "Travel and Tourism", "stance": "Informative", "focus": "Sustainable and Sensational Summer Holidays", "evidence": "travel agents on 20 ways to book a sustainable and sensational summer holiday", "uncertainty": 0.1, "urgency": 0.3, "causal_explicitness": 0.2, "attribution_strength": 0.8, "quotation_density": 0.4, "sensational_language": 0.6}
+
+UID: Phase2_369
+TEXT: This is so sad to hear 😢  Sir Tom Jones, 84, confesses he has 'less control' over his voice now
+FEATURES: {"frame": "Personal Update", "stance": "Neutral", "focus": "Health Decline", "evidence": "confesses he has 'less control' over his voice now", "uncertainty": 0.2, "urgency": 0.1, "causal_explicitness": 0.0, "attribution_strength": 0.9, "quotation_density": 0.5, "sensational_language": 0.3}
+
+UID: Phase3_99
+TEXT: Almost immediately after The Shining was released in 1980, rumors began to emerge about Shelley Duvall’s alleged mistreatment on set by director Stanley Kubrick. No, Shelley Duvall was not traumatized by Stanley Kubrick 
+FEATURES: {"frame": "Historical Event", "stance": "Neutral", "focus": "Rumors and Allegations", "evidence": "Almost immediately after The Shining was released in 1980, rumors began to emerge about Shelley Duvall’s alleged mistreatment on set by director Stanley Kubrick.", "uncertainty": 0.7, "urgency": 0.2, "causal_explicitness": 0.3, "attribution_strength": 0.6, "quotation_density": 0.1, "sensational_language": 0.4}
+
+Audit saved: /home/tahiti/NewsEmo/reports/phase2_inews_llm_audit.json
+[STOP] Suspicious cache. Further investigation required.

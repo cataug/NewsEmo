@@ -1,0 +1,13 @@
+15:17:58 SAVED inews 2510 /home/tahiti/NewsEmo/cache/manifests/inews.csv
+15:17:58 SAVED gne 5000 /home/tahiti/NewsEmo/cache/manifests/gne.csv
+15:17:58 SAVED semeval 1000 /home/tahiti/NewsEmo/cache/manifests/semeval.csv
+15:18:55 MIRAGE train 10000
+15:19:08 MIRAGE val 2500
+15:19:09 MIRAGE test1 500
+15:19:22 MIRAGE test2 500
+15:19:35 MIRAGE test3 500
+15:19:39 MIRAGE test4 500
+15:19:44 MIRAGE test5 500
+15:19:44 SAVED mirage 15000 /home/tahiti/NewsEmo/cache/manifests/mirage.csv
+15:19:47 SAVED clips 6925 /home/tahiti/NewsEmo/cache/manifests/clips.csv
+15:19:47 PREPARE DONE

@@ -1,0 +1,11 @@
+15:26:50 LOAD cliptext /home/tahiti/NewsEmo/models/clip_vit_b32 cuda
+15:26:55 EXTRACT cliptext clips 32 / 6925
+15:26:57 EXTRACT cliptext clips 832 / 6925
+15:26:59 EXTRACT cliptext clips 1632 / 6925
+15:27:01 EXTRACT cliptext clips 2432 / 6925
+15:27:03 EXTRACT cliptext clips 3232 / 6925
+15:27:05 EXTRACT cliptext clips 4032 / 6925
+15:27:07 EXTRACT cliptext clips 4832 / 6925
+15:27:09 EXTRACT cliptext clips 5632 / 6925
+15:27:11 EXTRACT cliptext clips 6432 / 6925
+15:27:12 COMPLETE cliptext clips
